@@ -87,7 +87,7 @@ See the full list of 30+ challenges at [bankstatemently.com/benchmarks/challenge
 
 ## Evaluation
 
-Ground truth is held server-side. To score your parser's output, submit it to the evaluation API.
+The dataset is fully open — use it however you like. If you want to score your parser against ground truth without building your own evaluation pipeline, Bankstatemently provides a free evaluation API.
 
 ### Quick start
 
@@ -105,7 +105,13 @@ curl -X POST https://api.bankstatemently.com/v1/benchmark/evaluate \
         "date": "2025-06-02",
         "description": "NTUC FAIRPRICE",
         "amount": -12.20,
-        "balance": 15438.55
+        "balance": 15438.55,
+        "originalData": {
+          "Date": "02/06/2025",
+          "Description": "NTUC FAIRPRICE",
+          "Withdrawal (-)": "12.20",
+          "Balance": "15,438.55"
+        }
       }
     ]
   }'
@@ -115,6 +121,16 @@ curl -X POST https://api.bankstatemently.com/v1/benchmark/evaluate \
 
 ```json
 {
+  "parsedScore": {
+    "overall": 0.96,
+    "structuralScore": 0.98,
+    "fieldAccuracy": {
+      "date": 1.00,
+      "description": 0.95,
+      "amount": 0.97,
+      "balance": 0.94
+    }
+  },
   "normalizedScore": {
     "overall": 0.94,
     "structuralScore": 0.97,
@@ -128,10 +144,14 @@ curl -X POST https://api.bankstatemently.com/v1/benchmark/evaluate \
 }
 ```
 
-### Scoring modes
+### Two scores
 
-- **Normalized** (default): Your output is compared against canonical values (ISO dates, numeric amounts). Always returned.
-- **Parsed**: If your submission includes `originalData` (raw cell values as they appear in the PDF), you also receive a parsed score that evaluates extraction fidelity before normalization.
+The API evaluates two dimensions of parser quality:
+
+- **Parsed score**: How accurately did you extract raw cell values from the PDF? Compared against the original text as it appears in the document (e.g., `"02/06/2025"`, `"15,438.55"`).
+- **Normalized score**: How well did you convert extracted values to canonical form? Compared against ISO dates, numeric amounts, and unified debit/credit direction.
+
+Both scores require `originalData` on each transaction — the raw column values as they appear in the PDF. This separates extraction accuracy from normalization accuracy.
 
 ### Rate limits
 
@@ -161,7 +181,7 @@ interface Transaction {
   description: string;
   amount: number;              // Negative for debits, positive for credits
   balance?: number;            // Running balance if available
-  originalData?: Record<string, string>; // Raw cell values for parsed scoring
+  originalData: Record<string, string>; // Raw cell values as they appear in the PDF (required)
 }
 ```
 
