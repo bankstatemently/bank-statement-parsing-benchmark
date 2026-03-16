@@ -1,0 +1,17 @@
+{
+  "statementId": "bsb-003",
+  "difficulty": "basic",
+  "challenges": [
+    "posting-date-selection",
+    "separate-counterparty-column",
+    "balance-validation",
+    "currency-symbol-amounts",
+    "partial-year-dates"
+  ],
+  "bank": "continental-trust",
+  "country": "NL",
+  "currency": "EUR",
+  "language": "nl",
+  "pages": 2,
+  "description": "European format with comma decimal separator and period thousands"
+}

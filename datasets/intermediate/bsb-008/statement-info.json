@@ -1,0 +1,18 @@
+{
+  "statementId": "bsb-008",
+  "difficulty": "intermediate",
+  "challenges": [
+    "date-time-dual-column",
+    "date-with-time",
+    "date-format-variations",
+    "scanned-pdf-text",
+    "credit-debit-columns",
+    "balance-validation"
+  ],
+  "bank": "southern-cross",
+  "country": "AU",
+  "currency": "AUD",
+  "language": "en",
+  "pages": 2,
+  "description": "Australian bank statement with date-time dual columns, scanned PDF, and date format variations"
+}

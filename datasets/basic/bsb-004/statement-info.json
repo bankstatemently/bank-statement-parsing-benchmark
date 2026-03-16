@@ -1,0 +1,16 @@
+{
+  "statementId": "bsb-004",
+  "difficulty": "basic",
+  "challenges": [
+    "credit-debit-columns",
+    "multi-line-descriptions",
+    "balance-validation",
+    "posting-date-selection"
+  ],
+  "bank": "silk-road",
+  "country": "HK",
+  "currency": "HKD",
+  "language": "en",
+  "pages": 3,
+  "description": "Hong Kong bank statement with credit/debit columns, multi-line descriptions, and value date"
+}

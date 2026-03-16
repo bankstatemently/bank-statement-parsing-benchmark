@@ -1,0 +1,16 @@
+{
+  "statementId": "bsb-007",
+  "difficulty": "intermediate",
+  "challenges": [
+    "posting-date-selection",
+    "split-date-columns-merged",
+    "multiple-tables",
+    "split-embedded-date-column"
+  ],
+  "bank": "continental-trust",
+  "country": "CA",
+  "currency": "CAD",
+  "language": "fr",
+  "pages": 1,
+  "description": "Canadian credit card with French headers, split date columns, and cashback sections"
+}

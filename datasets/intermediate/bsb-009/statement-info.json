@@ -1,0 +1,18 @@
+{
+  "statementId": "bsb-009",
+  "difficulty": "intermediate",
+  "challenges": [
+    "credit-debit-columns",
+    "posting-date-selection",
+    "balance-validation",
+    "date-format-variations",
+    "currency-symbol-amounts",
+    "no-table-boundaries"
+  ],
+  "bank": "harbour-bank",
+  "country": "GB",
+  "currency": "GBP",
+  "language": "en",
+  "pages": 1,
+  "description": "UK bank statement with value date column, currency symbol amounts, and no table grid lines"
+}

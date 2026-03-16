@@ -1,0 +1,18 @@
+{
+  "statementId": "bsb-012",
+  "difficulty": "advanced",
+  "challenges": [
+    "inverted-cc-sign-convention",
+    "fee-and-interest-sections",
+    "zero-value-informational-rows",
+    "partial-year-dates",
+    "scanned-pdf-text",
+    "header-footer-noise"
+  ],
+  "bank": "straits-capital",
+  "country": "SG",
+  "currency": "SGD",
+  "language": "zh-Hans",
+  "pages": 1,
+  "description": "Singapore credit card with Chinese-only headers, inverted sign convention, scanned PDF, and fee sections"
+}

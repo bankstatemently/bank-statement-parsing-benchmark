@@ -1,0 +1,18 @@
+{
+  "statementId": "bsb-014",
+  "difficulty": "advanced",
+  "challenges": [
+    "buddhist-era-dates",
+    "bilingual-headers",
+    "credit-debit-columns",
+    "partial-year-dates",
+    "payment-method-column",
+    "balance-validation"
+  ],
+  "bank": "silk-road",
+  "country": "TH",
+  "currency": "THB",
+  "language": "th",
+  "pages": 1,
+  "description": "Thai bilingual statement with Buddhist era dates, payment method column, and partial-year dates"
+}

@@ -1,0 +1,18 @@
+{
+  "statementId": "bsb-011",
+  "difficulty": "advanced",
+  "challenges": [
+    "bilingual-headers",
+    "mixed-locale-formatting",
+    "credit-debit-columns",
+    "multi-currency",
+    "multiple-accounts-single-table",
+    "end-of-day-balance"
+  ],
+  "bank": "southern-cross",
+  "country": "HK",
+  "currency": "HKD",
+  "language": "en",
+  "pages": 2,
+  "description": "Hong Kong bilingual statement with multiple accounts, multi-currency, and end-of-day balance"
+}

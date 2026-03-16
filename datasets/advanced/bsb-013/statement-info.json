@@ -1,0 +1,17 @@
+{
+  "statementId": "bsb-013",
+  "difficulty": "advanced",
+  "challenges": [
+    "multi-currency",
+    "dual-currency-display",
+    "credit-debit-columns",
+    "fee-column",
+    "multiple-accounts-single-table"
+  ],
+  "bank": "silk-road",
+  "country": "KZ",
+  "currency": "KZT",
+  "language": "en",
+  "pages": 2,
+  "description": "Kazakhstan multi-currency statement with 9-column layout, fee column, and dual currency display"
+}

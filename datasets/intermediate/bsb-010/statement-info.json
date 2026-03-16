@@ -1,0 +1,18 @@
+{
+  "statementId": "bsb-010",
+  "difficulty": "intermediate",
+  "challenges": [
+    "credit-debit-columns",
+    "balance-validation",
+    "payment-method-column",
+    "date-format-variations",
+    "balance-carry-forward-rows",
+    "date-carry-forward"
+  ],
+  "bank": "straits-capital",
+  "country": "IN",
+  "currency": "INR",
+  "language": "en",
+  "pages": 25,
+  "description": "Indian bank stress test with 500 transactions, payment method column, and pagination challenges"
+}

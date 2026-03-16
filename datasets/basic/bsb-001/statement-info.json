@@ -1,0 +1,15 @@
+{
+  "statementId": "bsb-001",
+  "difficulty": "basic",
+  "challenges": [
+    "credit-debit-columns",
+    "balance-validation",
+    "multi-line-descriptions"
+  ],
+  "bank": "straits-capital",
+  "country": "SG",
+  "currency": "SGD",
+  "language": "en",
+  "pages": 3,
+  "description": "Singapore standard format with separate credit/debit columns and dedicated account summary page"
+}

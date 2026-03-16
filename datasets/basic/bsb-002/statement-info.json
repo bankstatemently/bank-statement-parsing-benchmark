@@ -1,0 +1,16 @@
+{
+  "statementId": "bsb-002",
+  "difficulty": "basic",
+  "challenges": [
+    "posting-date-selection",
+    "transaction-continuation",
+    "non-standard-page-size",
+    "partial-year-dates"
+  ],
+  "bank": "liberty-national",
+  "country": "US",
+  "currency": "USD",
+  "language": "en",
+  "pages": 4,
+  "description": "US credit card with posting dates and wrapped merchant descriptions"
+}

@@ -1,0 +1,16 @@
+{
+  "statementId": "bsb-006",
+  "difficulty": "intermediate",
+  "challenges": [
+    "credit-debit-columns",
+    "dual-balance-timeline",
+    "partial-year-dates",
+    "balance-validation"
+  ],
+  "bank": "liberty-national",
+  "country": "MX",
+  "currency": "MXN",
+  "language": "es",
+  "pages": 1,
+  "description": "Mexican bank statement with Spanish headers, dual balance timeline, and partial-year dates"
+}

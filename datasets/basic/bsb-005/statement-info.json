@@ -1,0 +1,15 @@
+{
+  "statementId": "bsb-005",
+  "difficulty": "basic",
+  "challenges": [
+    "credit-debit-columns",
+    "date-format-variations",
+    "balance-validation"
+  ],
+  "bank": "harbour-bank",
+  "country": "CA",
+  "currency": "CAD",
+  "language": "fr",
+  "pages": 1,
+  "description": "French Canadian bank statement with credit-debit columns and space thousands separator"
+}

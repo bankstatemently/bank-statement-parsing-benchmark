@@ -1,0 +1,18 @@
+{
+  "statementId": "bsb-015",
+  "difficulty": "advanced",
+  "challenges": [
+    "bilingual-headers",
+    "mixed-locale-formatting",
+    "posting-date-selection",
+    "currency-symbol-header-only",
+    "multiple-tables",
+    "scanned-pdf-text"
+  ],
+  "bank": "southern-cross",
+  "country": "MY",
+  "currency": "MYR",
+  "language": "en",
+  "pages": 1,
+  "description": "Malaysian bilingual credit card with header-only currency symbol, scanned PDF, and multiple tables"
+}
