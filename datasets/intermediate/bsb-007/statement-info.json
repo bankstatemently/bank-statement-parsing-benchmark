@@ -1,16 +1,58 @@
 {
-  "statementId": "bsb-007",
+  "id": "bsb-007",
+  "contentHash": "2f20bd0a611356640191588887867e0b76d262dac85a8aa40f36fd84c7ce668a",
   "difficulty": "intermediate",
+  "documentType": "credit-card",
   "challenges": [
     "posting-date-selection",
     "split-date-columns-merged",
-    "multiple-tables",
-    "split-embedded-date-column"
+    "multiple-tables"
   ],
   "bank": "continental-trust",
   "country": "CA",
   "currency": "CAD",
   "language": "fr",
+  "languages": [
+    "fr",
+    "en"
+  ],
   "pages": 1,
+  "transactionCount": 25,
+  "published": false,
+  "columns": [
+    {
+      "label": "Date de transaction",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Date d'inscription",
+      "fieldType": "value_date",
+      "alignment": "left"
+    },
+    {
+      "label": "Description",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Remises %",
+      "fieldType": "cashback_rate",
+      "alignment": "right"
+    },
+    {
+      "label": "Montant",
+      "fieldType": "signed",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM/YYYY",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "leading-minus",
+    "currencySymbol": "$",
+    "currencyPosition": "before"
+  },
   "description": "Canadian credit card with French headers, split date columns, and cashback sections"
 }

@@ -1,6 +1,8 @@
 {
-  "statementId": "bsb-003",
+  "id": "bsb-003",
+  "contentHash": "64b2f82827776cd1647510c93135b4a59ea8dda8154ffa01def0b19ab6249447",
   "difficulty": "basic",
+  "documentType": "bank-statement",
   "challenges": [
     "posting-date-selection",
     "separate-counterparty-column",
@@ -12,6 +14,46 @@
   "country": "NL",
   "currency": "EUR",
   "language": "nl",
-  "pages": 2,
+  "languages": [
+    "nl"
+  ],
+  "pages": 3,
+  "transactionCount": 22,
+  "published": false,
+  "columns": [
+    {
+      "label": "Date",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Interest Date",
+      "fieldType": "value_date",
+      "alignment": "left"
+    },
+    {
+      "label": "Counterparty",
+      "fieldType": "counterparty",
+      "alignment": "left"
+    },
+    {
+      "label": "Description",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Amount",
+      "fieldType": "signed",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "D MMM",
+  "numberFormat": {
+    "decimalSeparator": ",",
+    "thousandsSeparator": ".",
+    "negativeFormat": "leading-minus",
+    "currencySymbol": "€",
+    "currencyPosition": "after"
+  },
   "description": "European format with comma decimal separator and period thousands"
 }

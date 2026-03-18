@@ -1,11 +1,12 @@
 {
-  "statementId": "bsb-014",
+  "id": "bsb-014",
+  "contentHash": "e9e7c33894d03b4fc465a055eada97d72a2ce1058e44c79e75d13d2518608102",
   "difficulty": "advanced",
+  "documentType": "bank-statement",
   "challenges": [
     "buddhist-era-dates",
     "bilingual-headers",
     "credit-debit-columns",
-    "partial-year-dates",
     "payment-method-column",
     "balance-validation"
   ],
@@ -13,6 +14,56 @@
   "country": "TH",
   "currency": "THB",
   "language": "th",
+  "languages": [
+    "th",
+    "en"
+  ],
   "pages": 1,
-  "description": "Thai bilingual statement with Buddhist era dates, payment method column, and partial-year dates"
+  "transactionCount": 28,
+  "published": false,
+  "columns": [
+    {
+      "label": "วันที่",
+      "altLabel": "Date",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "รายการ",
+      "altLabel": "Description",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "ช่องทาง",
+      "altLabel": "Via",
+      "fieldType": "method",
+      "alignment": "left"
+    },
+    {
+      "label": "ถอน",
+      "altLabel": "Withdrawal",
+      "fieldType": "debit",
+      "alignment": "right"
+    },
+    {
+      "label": "ฝาก",
+      "altLabel": "Deposit",
+      "fieldType": "credit",
+      "alignment": "right"
+    },
+    {
+      "label": "ยอดคงเหลือ",
+      "altLabel": "Balance",
+      "fieldType": "balance",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM/YYYY",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "separate-columns"
+  },
+  "description": "Thai bilingual statement with Buddhist era dates, payment method column, and balance validation"
 }

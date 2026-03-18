@@ -1,8 +1,12 @@
 {
-  "statementId": "bsb-005",
+  "id": "bsb-005",
+  "contentHash": "01a26c767b9488e45b358b329e2c9ea3d9fba05878a1963da06fde899827debb",
   "difficulty": "basic",
+  "documentType": "bank-statement",
   "challenges": [
+    "split-embedded-date-column",
     "credit-debit-columns",
+    "two-digit-year-dates",
     "date-format-variations",
     "balance-validation"
   ],
@@ -10,6 +14,41 @@
   "country": "CA",
   "currency": "CAD",
   "language": "fr",
-  "pages": 1,
-  "description": "French Canadian bank statement with credit-debit columns and space thousands separator"
+  "languages": [
+    "fr"
+  ],
+  "pages": 2,
+  "transactionCount": 25,
+  "published": false,
+  "columns": [
+    {
+      "label": "Détails",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Chèques et débits ($)",
+      "fieldType": "debit",
+      "alignment": "right"
+    },
+    {
+      "label": "Dépôts et crédits ($)",
+      "fieldType": "credit",
+      "alignment": "right"
+    },
+    {
+      "label": "Solde ($)",
+      "fieldType": "balance",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD MMM YY",
+  "numberFormat": {
+    "decimalSeparator": ",",
+    "thousandsSeparator": " ",
+    "negativeFormat": "leading-minus",
+    "currencySymbol": "$",
+    "currencyPosition": "after"
+  },
+  "description": "French Canadian bank statement with dates embedded in description, two-digit years, credit-debit columns, and space thousands separator"
 }

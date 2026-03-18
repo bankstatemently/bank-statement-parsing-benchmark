@@ -1,7 +1,10 @@
 {
-  "statementId": "bsb-002",
+  "id": "bsb-002",
+  "contentHash": "f9947911a399ff0ccb7e8afde6e3380e3f7a1f61a5809b68022ce0b9ba449b06",
   "difficulty": "basic",
+  "documentType": "credit-card",
   "challenges": [
+    "inverted-cc-sign-convention",
     "posting-date-selection",
     "transaction-continuation",
     "non-standard-page-size",
@@ -11,6 +14,39 @@
   "country": "US",
   "currency": "USD",
   "language": "en",
+  "languages": [
+    "en"
+  ],
   "pages": 4,
-  "description": "US credit card with posting dates and wrapped merchant descriptions"
+  "transactionCount": 15,
+  "published": false,
+  "columns": [
+    {
+      "label": "Post Date",
+      "fieldType": "value_date",
+      "alignment": "left"
+    },
+    {
+      "label": "Trans Date",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Merchant Name or Transaction Description",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "$ Amount",
+      "fieldType": "signed",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "MM/DD",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "leading-minus"
+  },
+  "description": "US credit card with inverted signs, posting dates, and wrapped merchant descriptions"
 }

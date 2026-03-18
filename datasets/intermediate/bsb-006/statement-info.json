@@ -1,6 +1,8 @@
 {
-  "statementId": "bsb-006",
+  "id": "bsb-006",
+  "contentHash": "86c80c99fec8efd857aa327872d18bed4599830ead90f3b0edb24fab1f1b2b0b",
   "difficulty": "intermediate",
+  "documentType": "bank-statement",
   "challenges": [
     "credit-debit-columns",
     "dual-balance-timeline",
@@ -11,6 +13,49 @@
   "country": "MX",
   "currency": "MXN",
   "language": "es",
+  "languages": [
+    "es"
+  ],
   "pages": 1,
+  "transactionCount": 30,
+  "published": false,
+  "columns": [
+    {
+      "label": "Fecha",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Concepto",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Cargos",
+      "fieldType": "debit",
+      "alignment": "right"
+    },
+    {
+      "label": "Abonos",
+      "fieldType": "credit",
+      "alignment": "right"
+    },
+    {
+      "label": "Saldo Operación",
+      "fieldType": "operation_balance",
+      "alignment": "right"
+    },
+    {
+      "label": "Saldo Liquidación",
+      "fieldType": "balance",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "separate-columns"
+  },
   "description": "Mexican bank statement with Spanish headers, dual balance timeline, and partial-year dates"
 }

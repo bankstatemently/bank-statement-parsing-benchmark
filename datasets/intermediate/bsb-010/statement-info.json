@@ -1,6 +1,8 @@
 {
-  "statementId": "bsb-010",
+  "id": "bsb-010",
+  "contentHash": "fa7daf95b19f15d55482af72124927c9780afd11941be00bbb03ac07670d72b7",
   "difficulty": "intermediate",
+  "documentType": "bank-statement",
   "challenges": [
     "credit-debit-columns",
     "balance-validation",
@@ -13,6 +15,52 @@
   "country": "IN",
   "currency": "INR",
   "language": "en",
+  "languages": [
+    "en"
+  ],
   "pages": 25,
+  "transactionCount": 500,
+  "published": false,
+  "columns": [
+    {
+      "label": "Date",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Mode",
+      "fieldType": "method",
+      "alignment": "left"
+    },
+    {
+      "label": "Description",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Deposits",
+      "fieldType": "credit",
+      "alignment": "right"
+    },
+    {
+      "label": "Withdrawals",
+      "fieldType": "debit",
+      "alignment": "right"
+    },
+    {
+      "label": "Balance",
+      "fieldType": "balance",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM/YYYY",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "groupingStyle": "indian",
+    "negativeFormat": "separate-columns",
+    "currencySymbol": "₹",
+    "currencyPosition": "before"
+  },
   "description": "Indian bank stress test with 500 transactions, payment method column, and pagination challenges"
 }

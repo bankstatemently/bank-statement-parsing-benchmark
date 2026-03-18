@@ -1,9 +1,10 @@
 {
-  "statementId": "bsb-008",
+  "id": "bsb-008",
+  "contentHash": "dd1c8d80b549ced2cfcbfd833c39485ee1949e322890c0e46257db9d57515cbc",
   "difficulty": "intermediate",
+  "documentType": "bank-statement",
   "challenges": [
     "date-time-dual-column",
-    "date-with-time",
     "date-format-variations",
     "scanned-pdf-text",
     "credit-debit-columns",
@@ -13,6 +14,49 @@
   "country": "AU",
   "currency": "AUD",
   "language": "en",
-  "pages": 2,
+  "languages": [
+    "en"
+  ],
+  "pages": 1,
+  "transactionCount": 30,
+  "published": false,
+  "columns": [
+    {
+      "label": "Date",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Time",
+      "fieldType": "time",
+      "alignment": "left"
+    },
+    {
+      "label": "Description",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Debit",
+      "fieldType": "debit",
+      "alignment": "right"
+    },
+    {
+      "label": "Credit",
+      "fieldType": "credit",
+      "alignment": "right"
+    },
+    {
+      "label": "Balance",
+      "fieldType": "balance",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM/YYYY",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "separate-columns"
+  },
   "description": "Australian bank statement with date-time dual columns, scanned PDF, and date format variations"
 }

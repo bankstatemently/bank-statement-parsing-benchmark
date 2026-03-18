@@ -1,6 +1,8 @@
 {
-  "statementId": "bsb-011",
+  "id": "bsb-011",
+  "contentHash": "49a49a7b2dc6c97895cfa0a276a46dbe14450968cbe3efa4e25d19f8c2f2ae79",
   "difficulty": "advanced",
+  "documentType": "bank-statement",
   "challenges": [
     "bilingual-headers",
     "mixed-locale-formatting",
@@ -13,6 +15,52 @@
   "country": "HK",
   "currency": "HKD",
   "language": "en",
+  "languages": [
+    "en",
+    "zh-Hant"
+  ],
   "pages": 2,
+  "transactionCount": 35,
+  "published": false,
+  "columns": [
+    {
+      "label": "Date",
+      "altLabel": "日期",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Description",
+      "altLabel": "說明",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Withdrawals",
+      "altLabel": "提款",
+      "fieldType": "debit",
+      "alignment": "right"
+    },
+    {
+      "label": "Deposits",
+      "altLabel": "存入",
+      "fieldType": "credit",
+      "alignment": "right"
+    },
+    {
+      "label": "Balance",
+      "altLabel": "結餘",
+      "fieldType": "balance",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM/YYYY",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "separate-columns",
+    "currencySymbol": "HK$",
+    "currencyPosition": "before"
+  },
   "description": "Hong Kong bilingual statement with multiple accounts, multi-currency, and end-of-day balance"
 }

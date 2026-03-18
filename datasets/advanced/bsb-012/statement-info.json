@@ -1,6 +1,8 @@
 {
-  "statementId": "bsb-012",
+  "id": "bsb-012",
+  "contentHash": "4730f60109c4f9139937395cd52284c360582be9a1fd3b1b2b0d1c3825f07b9b",
   "difficulty": "advanced",
+  "documentType": "credit-card",
   "challenges": [
     "inverted-cc-sign-convention",
     "fee-and-interest-sections",
@@ -13,6 +15,41 @@
   "country": "SG",
   "currency": "SGD",
   "language": "zh-Hans",
+  "languages": [
+    "zh-Hans"
+  ],
   "pages": 1,
+  "transactionCount": 33,
+  "published": false,
+  "columns": [
+    {
+      "label": "过账日期",
+      "fieldType": "value_date",
+      "alignment": "left"
+    },
+    {
+      "label": "交易日期",
+      "fieldType": "transaction_date",
+      "alignment": "left"
+    },
+    {
+      "label": "交易说明",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "金额 (S$)",
+      "fieldType": "signed",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "leading-minus",
+    "currencySymbol": "S$",
+    "currencyPosition": "before"
+  },
   "description": "Singapore credit card with Chinese-only headers, inverted sign convention, scanned PDF, and fee sections"
 }

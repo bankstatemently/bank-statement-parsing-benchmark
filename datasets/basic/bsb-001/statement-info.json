@@ -1,6 +1,8 @@
 {
-  "statementId": "bsb-001",
+  "id": "bsb-001",
+  "contentHash": "7f96da7316b2b540f2f8ecfc4151cd242a501be3ed84204a15bfbbe3c355531b",
   "difficulty": "basic",
+  "documentType": "bank-statement",
   "challenges": [
     "credit-debit-columns",
     "balance-validation",
@@ -10,6 +12,44 @@
   "country": "SG",
   "currency": "SGD",
   "language": "en",
+  "languages": [
+    "en"
+  ],
   "pages": 3,
+  "transactionCount": 12,
+  "published": false,
+  "columns": [
+    {
+      "label": "Date",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Description",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Withdrawal (-)",
+      "fieldType": "debit",
+      "alignment": "right"
+    },
+    {
+      "label": "Deposit (+)",
+      "fieldType": "credit",
+      "alignment": "right"
+    },
+    {
+      "label": "Balance",
+      "fieldType": "balance",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM/YYYY",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "separate-columns"
+  },
   "description": "Singapore standard format with separate credit/debit columns and dedicated account summary page"
 }

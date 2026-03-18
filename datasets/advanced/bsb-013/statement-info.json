@@ -1,6 +1,8 @@
 {
-  "statementId": "bsb-013",
+  "id": "bsb-013",
+  "contentHash": "010a9f65c1fb8490be23bf20d3fe2d1ec95bb3a9940a042439bf1c17e7aa2063",
   "difficulty": "advanced",
+  "documentType": "bank-statement",
   "challenges": [
     "multi-currency",
     "dual-currency-display",
@@ -12,6 +14,64 @@
   "country": "KZ",
   "currency": "KZT",
   "language": "en",
+  "languages": [
+    "en"
+  ],
   "pages": 2,
+  "transactionCount": 35,
+  "published": false,
+  "columns": [
+    {
+      "label": "Date",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Card No.",
+      "fieldType": "reference",
+      "alignment": "left"
+    },
+    {
+      "label": "Description",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Ccy",
+      "fieldType": "currency",
+      "alignment": "left"
+    },
+    {
+      "label": "Txn Amt",
+      "fieldType": "alt_amount",
+      "alignment": "right"
+    },
+    {
+      "label": "Credit",
+      "fieldType": "credit",
+      "alignment": "right"
+    },
+    {
+      "label": "Debit",
+      "fieldType": "debit",
+      "alignment": "right"
+    },
+    {
+      "label": "Fee",
+      "fieldType": "fee",
+      "alignment": "right"
+    },
+    {
+      "label": "Balance",
+      "fieldType": "balance",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD.MM.YYYY",
+  "numberFormat": {
+    "decimalSeparator": ",",
+    "thousandsSeparator": ".",
+    "negativeFormat": "separate-columns"
+  },
   "description": "Kazakhstan multi-currency statement with 9-column layout, fee column, and dual currency display"
 }

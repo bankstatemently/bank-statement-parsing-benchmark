@@ -1,18 +1,59 @@
 {
-  "statementId": "bsb-015",
+  "id": "bsb-015",
+  "contentHash": "4920f4a71bbe193e3535f5aee061f2621d3f4b713acd113a8600d2d2ae18a878",
   "difficulty": "advanced",
+  "documentType": "credit-card",
   "challenges": [
     "bilingual-headers",
     "mixed-locale-formatting",
     "posting-date-selection",
     "currency-symbol-header-only",
     "multiple-tables",
-    "scanned-pdf-text"
+    "scanned-pdf-text",
+    "trailing-sign-amounts"
   ],
   "bank": "southern-cross",
   "country": "MY",
   "currency": "MYR",
   "language": "en",
+  "languages": [
+    "en",
+    "ms"
+  ],
   "pages": 1,
+  "transactionCount": 20,
+  "published": false,
+  "columns": [
+    {
+      "label": "Posting Date",
+      "altLabel": "Tarikh Penyiaran",
+      "fieldType": "value_date",
+      "alignment": "left"
+    },
+    {
+      "label": "Transaction Date",
+      "altLabel": "Tarikh Transaksi",
+      "fieldType": "date",
+      "alignment": "left"
+    },
+    {
+      "label": "Description",
+      "altLabel": "Keterangan",
+      "fieldType": "description",
+      "alignment": "left"
+    },
+    {
+      "label": "Amount (MYR)",
+      "altLabel": "Jumlah (MYR)",
+      "fieldType": "signed",
+      "alignment": "right"
+    }
+  ],
+  "dateFormat": "DD/MM/YYYY",
+  "numberFormat": {
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "negativeFormat": "trailing-minus"
+  },
   "description": "Malaysian bilingual credit card with header-only currency symbol, scanned PDF, and multiple tables"
 }
