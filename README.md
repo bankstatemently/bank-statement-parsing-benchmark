@@ -266,4 +266,4 @@ MIT. See [LICENSE](LICENSE).
 
 ---
 
-Built by [Bankstatemently](https://bankstatemently.com) — convert bank statement PDFs to Excel, CSV, QBO, and Xero.
+Built by [Bankstatemently — bank statement converter](https://bankstatemently.com). Convert bank and credit card statement PDFs to Excel, CSV, QBO, and Xero.
