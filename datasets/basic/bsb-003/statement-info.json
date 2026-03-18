@@ -1,6 +1,6 @@
 {
   "id": "bsb-003",
-  "contentHash": "64b2f82827776cd1647510c93135b4a59ea8dda8154ffa01def0b19ab6249447",
+  "contentHash": "d605ff5e2c803f531c18d295354f135017c56082538f41e53d6c37452604a566",
   "difficulty": "basic",
   "documentType": "bank-statement",
   "challenges": [
@@ -15,7 +15,8 @@
   "currency": "EUR",
   "language": "nl",
   "languages": [
-    "nl"
+    "nl",
+    "en"
   ],
   "pages": 3,
   "transactionCount": 22,

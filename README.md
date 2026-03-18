@@ -1,4 +1,4 @@
-# Bank Statement Parsing Benchmark (BSPB)
+# Bankstatemently Open Benchmark
 
 <!-- SUBTITLE_START -->
 A standardized benchmark for evaluating bank and credit card statement PDF parsers. 15 synthetic statements across 3 difficulty tiers, 12 countries, 8 languages, and 40 parsing challenges.
@@ -8,7 +8,7 @@ A standardized benchmark for evaluating bank and credit card statement PDF parse
 
 ## Why this exists
 
-There is no standard way to measure how well a bank statement parser works. Every tool claims high accuracy, but there's no shared dataset to verify against. BSPB provides:
+There is no standard way to measure how well a bank statement parser works. Every tool claims high accuracy, but there's no shared dataset to verify against. The Bankstatemently Open Benchmark provides:
 
 - **Synthetic bank and credit card statements** that are safe to distribute (no real customer data)
 - **Known ground truth** held server-side for tamper-proof scoring
