@@ -1,8 +1,10 @@
 # Bank Statement Parsing Benchmark (BSPB)
 
-A standardized benchmark for evaluating bank statement PDF parsers. 15 synthetic statements across 3 difficulty tiers, 12 countries, 9 languages, and 30+ parsing challenges.
+<!-- SUBTITLE_START -->
+A standardized benchmark for evaluating bank statement PDF parsers. 15 synthetic statements across 3 difficulty tiers, 12 countries, 8 languages, and 40 parsing challenges.
+<!-- SUBTITLE_END -->
 
-**[View results and submit your parser](https://bankstatemently.com/benchmarks)** | **[Challenge browser](https://bankstatemently.com/benchmarks/challenges)** | **[API docs](https://bankstatemently.com/developers/api)**
+**[Browse the dataset](https://bankstatemently.com/benchmark)** | **[Challenge browser](https://bankstatemently.com/benchmark/challenges)** | **[API docs](https://bankstatemently.com/developers/api)**
 
 ## Why this exists
 
@@ -10,8 +12,23 @@ There is no standard way to measure how well a bank statement parser works. Ever
 
 - **Synthetic statements** that are safe to distribute (no real customer data)
 - **Known ground truth** held server-side for tamper-proof scoring
-- **Real-world challenges** — bilingual headers, Buddhist era dates, scanned PDFs, multi-currency, 9-column layouts
+- **Real-world challenges** — bilingual headers, Buddhist era dates, scanned PDFs, multi-currency, 9-column layouts, and many more
 - **Automated evaluation** via API — submit your parsed output, get a score
+
+## Sample statements
+
+<p align="center">
+  <img src="assets/previews/bsb-001.png" width="200" alt="bsb-001 — Straits Capital (Singapore)" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/previews/bsb-002.png" width="200" alt="bsb-002 — Liberty National Bank (US)" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/previews/bsb-003.png" width="200" alt="bsb-003 — Continental Trust (Netherlands)" />
+</p>
+<p align="center">
+  <em>bsb-001 (Singapore) &nbsp;·&nbsp; bsb-002 (US credit card) &nbsp;·&nbsp; bsb-003 (Netherlands)</em>
+</p>
+
+All statements use fictional banks with synthetic data. No real customer information.
 
 ## Dataset
 
@@ -36,54 +53,91 @@ manifest.json                  # Dataset version, checksums, challenge index
 
 ### Statements
 
-| ID | Difficulty | Country | Currency | Type | Challenges |
-|----|-----------|---------|----------|------|------------|
-| bsb-001 | Basic | SG | SGD | Bank | Credit/debit columns, balance validation, multi-line descriptions |
-| bsb-002 | Basic | US | USD | Credit Card | Posting dates, transaction continuation, non-standard page size |
-| bsb-003 | Basic | NL | EUR | Bank | Counterparty column, currency symbols, comma decimals |
-| bsb-004 | Basic | HK | HKD | Bank | Credit/debit columns, multi-line descriptions, value date |
-| bsb-005 | Basic | CA | CAD | Bank | French Canadian, space thousands separator |
-| bsb-006 | Intermediate | MX | MXN | Bank | Spanish headers, dual balance timeline |
-| bsb-007 | Intermediate | CA | CAD | Credit Card | French/English bilingual, split date columns, multiple tables |
-| bsb-008 | Intermediate | AU | AUD | Bank | Date-time columns, scanned PDF |
-| bsb-009 | Intermediate | GB | GBP | Bank | Value date, currency symbols, no table grid lines |
-| bsb-010 | Intermediate | IN | INR | Bank | 500 transactions, Indian numbering, payment method column |
-| bsb-011 | Advanced | HK | HKD | Bank | Bilingual (EN/ZH), multi-currency, multiple accounts, end-of-day balance |
-| bsb-012 | Advanced | SG | SGD | Credit Card | Chinese-only headers, inverted sign convention, scanned PDF |
-| bsb-013 | Advanced | KZ | KZT | Bank | Multi-currency, 9-column layout, fee column |
-| bsb-014 | Advanced | TH | THB | Bank | Thai bilingual, Buddhist era dates, payment method column |
-| bsb-015 | Advanced | MY | MYR | Credit Card | Malay/English bilingual, header-only currency symbol, scanned PDF |
+<!-- STATEMENTS_TABLE_START -->
+| | ID | Difficulty | Country | Lang | Type | Pages | Txns | Challenges | |
+|---|---|---|---|---|---|--:|--:|------------|---|
+| <img src="assets/logos/straits-capital.svg" width="18" /> | bsb-001 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇸🇬 SG | EN | Bank | 3 | 12 | Credit/debit columns, Balance validation, Multi-line descriptions |  |
+| <img src="assets/logos/liberty-national.svg" width="18" /> | bsb-002 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇺🇸 US | EN | Credit Card | 4 | 15 | Inverted CC sign convention, Posting dates, Transaction continuation, Non-standard page size, Partial-year dates |  |
+| <img src="assets/logos/continental-trust.svg" width="18" /> | bsb-003 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇳🇱 NL | NL | Bank | 3 | 22 | Posting dates, Counterparty column, Balance validation, Currency symbols, Partial-year dates |  |
+| <img src="assets/logos/silk-road.svg" width="18" /> | bsb-004 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇭🇰 HK | EN | Bank | 4 | 25 | Credit/debit columns, Multi-line descriptions, Balance validation, Posting dates, Multiple accounts |  |
+| <img src="assets/logos/harbour-bank.svg" width="18" /> | bsb-005 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇨🇦 CA | FR | Bank | 2 | 25 | Embedded date column, Credit/debit columns, Two-digit year dates, Date format variations, Balance validation |  |
+| <img src="assets/logos/liberty-national.svg" width="18" /> | bsb-006 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇲🇽 MX | ES | Bank | 1 | 30 | Credit/debit columns, Dual balance timeline, Partial-year dates, Balance validation | *Coming soon* |
+| <img src="assets/logos/continental-trust.svg" width="18" /> | bsb-007 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇨🇦 CA | FR/EN | Credit Card | 1 | 25 | Posting dates, Split date columns, Multiple tables | *Coming soon* |
+| <img src="assets/logos/southern-cross.svg" width="18" /> | bsb-008 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇦🇺 AU | EN | Bank | 1 | 30 | Date-time columns, Date format variations, Scanned PDF, Credit/debit columns, Balance validation | *Coming soon* |
+| <img src="assets/logos/harbour-bank.svg" width="18" /> | bsb-009 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇬🇧 GB | EN | Bank | 1 | 35 | Credit/debit columns, Posting dates, Balance validation, Date format variations, Currency symbols, No table boundaries | *Coming soon* |
+| <img src="assets/logos/straits-capital.svg" width="18" /> | bsb-010 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇮🇳 IN | EN | Bank | 25 | 500 | Credit/debit columns, Balance validation, Payment method column, Date format variations, Balance carry-forward, Date carry-forward | *Coming soon* |
+| <img src="assets/logos/southern-cross.svg" width="18" /> | bsb-011 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇭🇰 HK | EN/ZH | Bank | 2 | 35 | Bilingual headers, Mixed-locale formatting, Credit/debit columns, Multi-currency, Multiple accounts, End-of-day balance | *Coming soon* |
+| <img src="assets/logos/straits-capital.svg" width="18" /> | bsb-012 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇸🇬 SG | ZH | Credit Card | 1 | 33 | Inverted CC sign convention, Fee/interest sections, Zero-value rows, Partial-year dates, Scanned PDF, Header/footer noise | *Coming soon* |
+| <img src="assets/logos/silk-road.svg" width="18" /> | bsb-013 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇰🇿 KZ | EN | Bank | 2 | 35 | Multi-currency, Dual-currency display, Credit/debit columns, Fee column, Multiple accounts | *Coming soon* |
+| <img src="assets/logos/silk-road.svg" width="18" /> | bsb-014 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇹🇭 TH | TH/EN | Bank | 1 | 28 | Buddhist era dates, Bilingual headers, Credit/debit columns, Payment method column, Balance validation | *Coming soon* |
+| <img src="assets/logos/southern-cross.svg" width="18" /> | bsb-015 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇲🇾 MY | EN/MS | Credit Card | 1 | 20 | Bilingual headers, Mixed-locale formatting, Posting dates, Header-only currency symbol, Multiple tables, Scanned PDF, Trailing sign amounts | *Coming soon* |
+<!-- STATEMENTS_TABLE_END -->
 
-All statements use fictional banks with synthetic data. No real customer information.
+### Fictional banks
+
+The benchmark uses 6 fictional banks, each with their own visual identity and statement design:
+
+<!-- BANKS_TABLE_START -->
+| | Bank | Statements |
+|---|------|------------|
+| <img src="assets/logos/continental-trust.svg" width="24" /> | **Continental Trust** | bsb-003, bsb-007 |
+| <img src="assets/logos/harbour-bank.svg" width="24" /> | **Harbour Bank** | bsb-005, bsb-009 |
+| <img src="assets/logos/liberty-national.svg" width="24" /> | **Liberty National Bank** | bsb-002, bsb-006 |
+| <img src="assets/logos/silk-road.svg" width="24" /> | **Silk Road Banking** | bsb-004, bsb-013, bsb-014 |
+| <img src="assets/logos/southern-cross.svg" width="24" /> | **Southern Cross Financial** | bsb-008, bsb-011, bsb-015 |
+| <img src="assets/logos/straits-capital.svg" width="24" /> | **Straits Capital** | bsb-001, bsb-010, bsb-012 |
+<!-- BANKS_TABLE_END -->
 
 ### Challenges
 
-Each statement exercises specific parsing challenges found in real-world bank statements:
+Each statement exercises specific parsing challenges found in real-world bank statements. The full list of 40 challenges:
 
-| Challenge | Description |
-|-----------|-------------|
-| `balance-validation` | Running balance must be verified against transaction amounts |
-| `bilingual-headers` | Column headers in two languages (e.g., English + Chinese) |
-| `buddhist-era-dates` | Thai Buddhist calendar dates (BE 2568 = CE 2025) |
-| `credit-debit-columns` | Separate columns for credits and debits instead of a single amount |
-| `currency-symbol-amounts` | Currency symbols embedded in amount cells |
-| `date-carry-forward` | Date field blank when same as previous row |
-| `date-format-variations` | Multiple date formats within the same statement |
-| `dual-balance-timeline` | Two parallel balance columns (e.g., available + ledger) |
-| `end-of-day-balance` | Balance shown only on the last transaction of each day |
-| `fee-column` | Dedicated column for fees/charges |
-| `inverted-cc-sign-convention` | Credits shown as negative, debits as positive |
-| `multi-currency` | Transactions in multiple currencies within one statement |
-| `multiple-tables` | Statement split into sections (e.g., Purchases, Payments, Fees) |
-| `no-table-boundaries` | No visible grid lines separating columns |
-| `partial-year-dates` | Dates without year (e.g., "15 Mar" instead of "15 Mar 2025") |
-| `posting-date-selection` | Multiple date columns (transaction date vs posting/value date) |
-| `scanned-pdf-text` | OCR-style text with slight degradation |
-| `separate-counterparty-column` | Merchant/payee in a dedicated column, not embedded in description |
-| `split-embedded-date-column` | Date embedded within the description column |
-| `transaction-continuation` | Transaction description wrapping across multiple lines |
+<!-- CHALLENGES_TABLE_START -->
+| Challenge | Description | Statements |
+|-----------|-------------|:--:|
+| `balance-carry-forward-rows` | Phantom Balance Rows on Every Page | 1 |
+| `balance-validation` | Running Balance Cross-Check | 9 |
+| `bilingual-descriptions` | Bilingual Transaction Descriptions | 0 |
+| `bilingual-headers` | Bilingual Column Headers | 3 |
+| `buddhist-era-dates` | Buddhist Era Calendar (Year +543) | 1 |
+| `credit-debit-columns` | Separate Credit & Debit Columns | 10 |
+| `currency-symbol-amounts` | Currency Symbols Breaking Numeric Parsing | 2 |
+| `currency-symbol-header-only` | Currency Only Shown in Column Header | 1 |
+| `date-carry-forward` | Blank Dates for Same-Day Transactions | 1 |
+| `date-format-variations` | Inconsistent Date Formats | 4 |
+| `date-time-dual-column` | Column Mixes Times and Dates | 1 |
+| `date-with-time` | Times Mixed Into Date Column | 0 |
+| `debit-credit-appearance` | Misleading Debit/Credit Signs | 0 |
+| `dual-balance-timeline` | Dual Balance Timeline | 1 |
+| `dual-currency-display` | Two Currencies Shown Side-by-Side | 1 |
+| `end-of-day-balance` | Sparse Balance Column (End-of-Day Only) | 1 |
+| `fee-and-interest-sections` | Fees & Interest Buried in Separate Sections | 1 |
+| `fee-column` | Fees in a Separate Column | 1 |
+| `header-footer-noise` | Page Headers & Footers Mixed with Data | 1 |
+| `inverted-cc-sign-convention` | Charges Shown as Negative (Inverted Signs) | 2 |
+| `mixed-locale-formatting` | Mixed Locale Formatting | 2 |
+| `multi-currency` | Multiple Currencies in One Table | 2 |
+| `multi-line-descriptions` | Multi-Line Text Within a Cell | 2 |
+| `multiple-accounts-multiple-tables` | Separate Transaction Tables per Account | 1 |
+| `multiple-accounts-single-table` | Multiple Accounts Mixed in One Table | 2 |
+| `multiple-tables` | Transactions Split Across Multiple Tables | 2 |
+| `no-table-boundaries` | No Visible Table Lines or Borders | 1 |
+| `non-standard-page-size` | Non-Standard Page Size | 1 |
+| `partial-year-dates` | Missing Year in Dates | 4 |
+| `payment-method-column` | Payment Method/Rails Information | 2 |
+| `posting-date-selection` | Multiple Dates per Transaction | 6 |
+| `reverse-chronological-order` | Transactions Listed Newest-First | 0 |
+| `scanned-pdf-text` | No Selectable Text (Scanned PDF) | 3 |
+| `separate-counterparty-column` | Separate Counterparty Column | 1 |
+| `split-date-columns-merged` | Date Split Across Day/Month Columns | 1 |
+| `split-embedded-date-column` | Date Hidden Inside Description Text | 1 |
+| `trailing-sign-amounts` | Plus/Minus Sign After the Amount | 1 |
+| `transaction-continuation` | Description Continuation Rows | 1 |
+| `two-digit-year-dates` | Abbreviated Year in Dates | 1 |
+| `zero-value-informational-rows` | Zero-Value Fee & Interest Lines | 1 |
+<!-- CHALLENGES_TABLE_END -->
 
-See the full list of 30+ challenges at [bankstatemently.com/benchmarks/challenges](https://bankstatemently.com/benchmarks/challenges).
+Explore interactive examples at [bankstatemently.com/benchmark/challenges](https://bankstatemently.com/benchmark/challenges).
 
 ## Evaluation
 
@@ -91,74 +145,80 @@ The dataset is fully open — use it however you like. If you want to score your
 
 ### Quick start
 
-1. Parse any statement PDF with your tool
-2. Format the output as JSON (see schema below)
-3. Submit to the evaluation endpoint
+1. Get a free API key at [bankstatemently.com/developers](https://bankstatemently.com/developers)
+2. Parse any statement PDF with your tool
+3. Format the output as JSON (see schema below)
+4. Submit to the evaluation endpoint with the PDF's SHA-256 hash
 
 ```bash
+HASH=$(shasum -a 256 bsb-001-statement.pdf | cut -d' ' -f1)
+
 curl -X POST https://api.bankstatemently.com/v1/benchmark/evaluate \
   -H "Content-Type: application/json" \
-  -d '{
-    "statementId": "bsb-001",
-    "transactions": [
+  -H "X-API-Key: bsk_live_..." \
+  -d "{
+    \"contentHash\": \"$HASH\",
+    \"transactions\": [
       {
-        "date": "2025-06-02",
-        "description": "NTUC FAIRPRICE",
-        "amount": -12.20,
-        "balance": 15438.55,
-        "originalData": {
-          "Date": "02/06/2025",
-          "Description": "NTUC FAIRPRICE",
-          "Withdrawal (-)": "12.20",
-          "Balance": "15,438.55"
+        \"date\": \"2025-06-02\",
+        \"description\": \"NTUC FAIRPRICE\",
+        \"amount\": 12.20,
+        \"direction\": \"debit\",
+        \"balance\": 15438.55,
+        \"originalData\": {
+          \"Date\": \"02/06/2025\",
+          \"Description\": \"NTUC FAIRPRICE\",
+          \"Withdrawal (-)\": \"12.20\",
+          \"Balance\": \"15,438.55\"
         }
       }
     ]
-  }'
+  }"
 ```
 
 ### Response
 
 ```json
 {
+  "contentHash": "9772253f...",
+  "id": "bsb-001",
+  "datasetVersion": "2.0",
+  "difficulty": "basic",
+  "challenges": ["credit-debit-columns", "balance-validation", "multi-line-descriptions"],
   "parsedScore": {
-    "overall": 0.96,
-    "structuralScore": 0.98,
-    "fieldAccuracy": {
-      "date": 1.00,
+    "overall": 0.945,
+    "extraction": 0.972,
+    "integrity": 0.973,
+    "fields": {
+      "date": 0.99,
       "description": 0.95,
       "amount": 0.97,
-      "balance": 0.94
-    }
+      "balance": 0.97
+    },
+    "alignment": { "matched": 12, "missing": 0, "extra": 0, "total": 12 }
   },
   "normalizedScore": {
-    "overall": 0.94,
-    "structuralScore": 0.97,
-    "fieldAccuracy": {
-      "date": 0.98,
-      "description": 0.91,
-      "amount": 0.95,
-      "balance": 0.93
-    }
+    "overall": 0.941,
+    "extraction": 0.965,
+    "integrity": 0.973,
+    "fields": { "date": 0.98, "description": 0.91, "amount": 0.95, "balance": 0.93 },
+    "alignment": { "matched": 12, "missing": 0, "extra": 0, "total": 12 }
   }
 }
 ```
 
 ### Two scores
 
-The API evaluates two dimensions of parser quality:
+The API evaluates two dimensions of parser quality, each returning `extraction`, `integrity`, per-field accuracy, and row-level alignment:
 
 - **Parsed score**: How accurately did you extract raw cell values from the PDF? Compared against the original text as it appears in the document (e.g., `"02/06/2025"`, `"15,438.55"`).
 - **Normalized score**: How well did you convert extracted values to canonical form? Compared against ISO dates, numeric amounts, and unified debit/credit direction.
 
-Both scores require `originalData` on each transaction — the raw column values as they appear in the PDF. This separates extraction accuracy from normalization accuracy.
+`overall` = `extraction` × `integrity`. Both scores require `originalData` on each transaction — the raw column values as they appear in the PDF.
 
 ### Rate limits
 
-| Tier | Limit |
-|------|-------|
-| Anonymous | 5 evaluations/hour |
-| API key (free) | 50 evaluations/day |
+50 requests/hour per API key. No credits consumed — benchmark evaluation is free.
 
 Get a free API key at [bankstatemently.com/developers](https://bankstatemently.com/developers).
 
@@ -166,35 +226,37 @@ Get a free API key at [bankstatemently.com/developers](https://bankstatemently.c
 
 ```typescript
 interface Submission {
-  statementId: string;         // e.g. "bsb-001"
+  contentHash: string;         // SHA-256 hex digest of the PDF (64 chars)
   transactions: Transaction[];
-  metadata?: {                 // Optional
-    accountNumber?: string;
-    statementDate?: string;
-    openingBalance?: number;
-    closingBalance?: number;
-  };
 }
 
 interface Transaction {
   date: string;                // ISO 8601 preferred (e.g. "2025-06-02")
   description: string;
-  amount: number;              // Negative for debits, positive for credits
+  amount: number;              // Positive value; use direction for sign
+  direction?: "credit" | "debit"; // If omitted, inferred from amount sign (negative = debit)
   balance?: number;            // Running balance if available
+  currency?: string;           // ISO currency code (for multi-currency statements)
   originalData: Record<string, string>; // Raw cell values as they appear in the PDF (required)
 }
 ```
 
+## Example submission
+
+See [`examples/bsb-001-submission.json`](examples/bsb-001-submission.json) for a complete submission with all 12 transactions, including `originalData` for each row.
+
 ## Dataset integrity
 
-Each PDF has a SHA-256 checksum in `manifest.json`. Verify your download:
+Each PDF has a SHA-256 checksum in `manifest.json`. Use the included script to compute hashes:
 
 ```bash
-# Check all PDFs
+# Hash a single PDF (this is the contentHash for the evaluation API)
+./scripts/hash.sh datasets/basic/bsb-001/bsb-001-statement.pdf
+
+# Verify all PDFs
 for dir in datasets/*/*; do
   id=$(basename "$dir")
-  sha=$(shasum -a 256 "$dir/$id-statement.pdf" | cut -c1-16)
-  echo "$id: $sha"
+  echo "$id: $(./scripts/hash.sh "$dir/$id-statement.pdf")"
 done
 ```
 
@@ -204,4 +266,4 @@ MIT. See [LICENSE](LICENSE).
 
 ---
 
-Built by [Bankstatemently](https://bankstatemently.com) — convert bank statement PDFs to Excel, CSV, and QBO.
+Built by [Bankstatemently](https://bankstatemently.com) — convert bank statement PDFs to Excel, CSV, QBO, and Xero.
