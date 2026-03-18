@@ -1,7 +1,7 @@
 # Bank Statement Parsing Benchmark (BSPB)
 
 <!-- SUBTITLE_START -->
-A standardized benchmark for evaluating bank statement PDF parsers. 15 synthetic statements across 3 difficulty tiers, 12 countries, 8 languages, and 40 parsing challenges.
+A standardized benchmark for evaluating bank and credit card statement PDF parsers. 15 synthetic statements across 3 difficulty tiers, 12 countries, 8 languages, and 40 parsing challenges.
 <!-- SUBTITLE_END -->
 
 **[Browse the dataset](https://bankstatemently.com/benchmark)** | **[Challenge browser](https://bankstatemently.com/benchmark/challenges)** | **[API docs](https://bankstatemently.com/developers/api)**
@@ -10,7 +10,7 @@ A standardized benchmark for evaluating bank statement PDF parsers. 15 synthetic
 
 There is no standard way to measure how well a bank statement parser works. Every tool claims high accuracy, but there's no shared dataset to verify against. BSPB provides:
 
-- **Synthetic statements** that are safe to distribute (no real customer data)
+- **Synthetic bank and credit card statements** that are safe to distribute (no real customer data)
 - **Known ground truth** held server-side for tamper-proof scoring
 - **Real-world challenges** — bilingual headers, Buddhist era dates, scanned PDFs, multi-currency, 9-column layouts, and many more
 - **Automated evaluation** via API — submit your parsed output, get a score
@@ -54,23 +54,23 @@ manifest.json                  # Dataset version, checksums, challenge index
 ### Statements
 
 <!-- STATEMENTS_TABLE_START -->
-| | ID | Difficulty | Country | Lang | Type | Pages | Txns | Challenges | |
-|---|---|---|---|---|---|--:|--:|------------|---|
-| <img src="assets/logos/straits-capital.svg" width="18" /> | bsb-001 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇸🇬 SG | EN | Bank | 3 | 12 | Credit/debit columns, Balance validation, Multi-line descriptions |  |
-| <img src="assets/logos/liberty-national.svg" width="18" /> | bsb-002 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇺🇸 US | EN | Credit Card | 4 | 15 | Inverted CC sign convention, Posting dates, Transaction continuation, Non-standard page size, Partial-year dates |  |
-| <img src="assets/logos/continental-trust.svg" width="18" /> | bsb-003 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇳🇱 NL | NL | Bank | 3 | 22 | Posting dates, Counterparty column, Balance validation, Currency symbols, Partial-year dates |  |
-| <img src="assets/logos/silk-road.svg" width="18" /> | bsb-004 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇭🇰 HK | EN | Bank | 4 | 25 | Credit/debit columns, Multi-line descriptions, Balance validation, Posting dates, Multiple accounts |  |
-| <img src="assets/logos/harbour-bank.svg" width="18" /> | bsb-005 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇨🇦 CA | FR | Bank | 2 | 25 | Embedded date column, Credit/debit columns, Two-digit year dates, Date format variations, Balance validation |  |
-| <img src="assets/logos/liberty-national.svg" width="18" /> | bsb-006 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇲🇽 MX | ES | Bank | 1 | 30 | Credit/debit columns, Dual balance timeline, Partial-year dates, Balance validation | *Coming soon* |
-| <img src="assets/logos/continental-trust.svg" width="18" /> | bsb-007 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇨🇦 CA | FR/EN | Credit Card | 1 | 25 | Posting dates, Split date columns, Multiple tables | *Coming soon* |
-| <img src="assets/logos/southern-cross.svg" width="18" /> | bsb-008 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇦🇺 AU | EN | Bank | 1 | 30 | Date-time columns, Date format variations, Scanned PDF, Credit/debit columns, Balance validation | *Coming soon* |
-| <img src="assets/logos/harbour-bank.svg" width="18" /> | bsb-009 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇬🇧 GB | EN | Bank | 1 | 35 | Credit/debit columns, Posting dates, Balance validation, Date format variations, Currency symbols, No table boundaries | *Coming soon* |
-| <img src="assets/logos/straits-capital.svg" width="18" /> | bsb-010 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇮🇳 IN | EN | Bank | 25 | 500 | Credit/debit columns, Balance validation, Payment method column, Date format variations, Balance carry-forward, Date carry-forward | *Coming soon* |
-| <img src="assets/logos/southern-cross.svg" width="18" /> | bsb-011 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇭🇰 HK | EN/ZH | Bank | 2 | 35 | Bilingual headers, Mixed-locale formatting, Credit/debit columns, Multi-currency, Multiple accounts, End-of-day balance | *Coming soon* |
-| <img src="assets/logos/straits-capital.svg" width="18" /> | bsb-012 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇸🇬 SG | ZH | Credit Card | 1 | 33 | Inverted CC sign convention, Fee/interest sections, Zero-value rows, Partial-year dates, Scanned PDF, Header/footer noise | *Coming soon* |
-| <img src="assets/logos/silk-road.svg" width="18" /> | bsb-013 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇰🇿 KZ | EN | Bank | 2 | 35 | Multi-currency, Dual-currency display, Credit/debit columns, Fee column, Multiple accounts | *Coming soon* |
-| <img src="assets/logos/silk-road.svg" width="18" /> | bsb-014 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇹🇭 TH | TH/EN | Bank | 1 | 28 | Buddhist era dates, Bilingual headers, Credit/debit columns, Payment method column, Balance validation | *Coming soon* |
-| <img src="assets/logos/southern-cross.svg" width="18" /> | bsb-015 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇲🇾 MY | EN/MS | Credit Card | 1 | 20 | Bilingual headers, Mixed-locale formatting, Posting dates, Header-only currency symbol, Multiple tables, Scanned PDF, Trailing sign amounts | *Coming soon* |
+| ID | Difficulty | Country | Lang | Type | Pages | Txns | Challenges | |
+|---|---|---|---|---|--:|--:|------------|---|
+| bsb-001 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇸🇬 SG | EN | Bank | 3 | 12 | Credit/debit columns, Balance validation, Multi-line descriptions |  |
+| bsb-002 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇺🇸 US | EN | Credit Card | 4 | 15 | Inverted CC sign convention, Posting dates, Transaction continuation, Non-standard page size, Partial-year dates |  |
+| bsb-003 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇳🇱 NL | NL/EN | Bank | 3 | 22 | Posting dates, Counterparty column, Balance validation, Currency symbols, Partial-year dates |  |
+| bsb-004 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇭🇰 HK | EN | Bank | 4 | 25 | Credit/debit columns, Multi-line descriptions, Balance validation, Posting dates, Multiple accounts |  |
+| bsb-005 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇨🇦 CA | FR | Bank | 2 | 25 | Embedded date column, Credit/debit columns, Two-digit year dates, Date format variations, Balance validation |  |
+| bsb-006 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇲🇽 MX | ES | Bank | 1 | 30 | Credit/debit columns, Dual balance timeline, Partial-year dates, Balance validation | *Coming soon* |
+| bsb-007 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇨🇦 CA | FR/EN | Credit Card | 1 | 25 | Posting dates, Split date columns, Multiple tables | *Coming soon* |
+| bsb-008 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇦🇺 AU | EN | Bank | 1 | 30 | Date-time columns, Date format variations, Scanned PDF, Credit/debit columns, Balance validation | *Coming soon* |
+| bsb-009 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇬🇧 GB | EN | Bank | 1 | 35 | Credit/debit columns, Posting dates, Balance validation, Date format variations, Currency symbols, No table boundaries | *Coming soon* |
+| bsb-010 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇮🇳 IN | EN | Bank | 25 | 500 | Credit/debit columns, Balance validation, Payment method column, Date format variations, Balance carry-forward, Date carry-forward | *Coming soon* |
+| bsb-011 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇭🇰 HK | EN/ZH | Bank | 2 | 35 | Bilingual headers, Mixed-locale formatting, Credit/debit columns, Multi-currency, Multiple accounts, End-of-day balance | *Coming soon* |
+| bsb-012 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇸🇬 SG | ZH | Credit Card | 1 | 33 | Inverted CC sign convention, Fee/interest sections, Zero-value rows, Partial-year dates, Scanned PDF, Header/footer noise | *Coming soon* |
+| bsb-013 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇰🇿 KZ | EN | Bank | 2 | 35 | Multi-currency, Dual-currency display, Credit/debit columns, Fee column, Multiple accounts | *Coming soon* |
+| bsb-014 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇹🇭 TH | TH/EN | Bank | 1 | 28 | Buddhist era dates, Bilingual headers, Credit/debit columns, Payment method column, Balance validation | *Coming soon* |
+| bsb-015 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇲🇾 MY | EN/MS | Credit Card | 1 | 20 | Bilingual headers, Mixed-locale formatting, Posting dates, Header-only currency symbol, Multiple tables, Scanned PDF, Trailing sign amounts | *Coming soon* |
 <!-- STATEMENTS_TABLE_END -->
 
 ### Fictional banks
