@@ -18,14 +18,18 @@ There is no standard way to measure how well a bank statement parser works. Ever
 ## Sample statements
 
 <p align="center">
-  <img src="assets/previews/bsb-001.png" width="200" alt="bsb-001 — Straits Capital (Singapore)" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/previews/bsb-002.png" width="200" alt="bsb-002 — Liberty National Bank (US)" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/previews/bsb-003.png" width="200" alt="bsb-003 — Continental Trust (Netherlands)" />
+  <img src="assets/previews/bsb-001.png" width="150" alt="bsb-001 — Straits Capital (Singapore)" />
+  &nbsp;&nbsp;
+  <img src="assets/previews/bsb-002.png" width="150" alt="bsb-002 — Liberty National Bank (US)" />
+  &nbsp;&nbsp;
+  <img src="assets/previews/bsb-003.png" width="150" alt="bsb-003 — Continental Trust (Netherlands)" />
+  &nbsp;&nbsp;
+  <img src="assets/previews/bsb-004.png" width="150" alt="bsb-004 — Silk Road Banking (Hong Kong)" />
+  &nbsp;&nbsp;
+  <img src="assets/previews/bsb-005.png" width="150" alt="bsb-005 — Harbour Bank (Canada)" />
 </p>
 <p align="center">
-  <em>bsb-001 (Singapore) &nbsp;·&nbsp; bsb-002 (US credit card) &nbsp;·&nbsp; bsb-003 (Netherlands)</em>
+  <em>bsb-001 (Singapore) &nbsp;·&nbsp; bsb-002 (US credit card) &nbsp;·&nbsp; bsb-003 (Netherlands) &nbsp;·&nbsp; bsb-004 (Hong Kong) &nbsp;·&nbsp; bsb-005 (Canada, French)</em>
 </p>
 
 All statements use fictional banks with synthetic data. No real customer information.
