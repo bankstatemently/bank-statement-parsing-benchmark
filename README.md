@@ -29,7 +29,7 @@ There is no standard way to measure how well a bank statement parser works. Ever
   <img src="assets/previews/bsb-005.png" width="150" alt="bsb-005 — Harbour Bank (Canada)" />
 </p>
 <p align="center">
-  <em>bsb-001 (Singapore) &nbsp;·&nbsp; bsb-002 (US credit card) &nbsp;·&nbsp; bsb-003 (Netherlands) &nbsp;·&nbsp; bsb-004 (Hong Kong) &nbsp;·&nbsp; bsb-005 (Canada, French)</em>
+  <em><img src="assets/logos/straits-capital.svg" width="14" /> bsb-001 (Singapore) &nbsp;·&nbsp; <img src="assets/logos/liberty-national.svg" width="14" /> bsb-002 (US credit card) &nbsp;·&nbsp; <img src="assets/logos/continental-trust.svg" width="14" /> bsb-003 (Netherlands) &nbsp;·&nbsp; <img src="assets/logos/silk-road.svg" width="14" /> bsb-004 (Hong Kong) &nbsp;·&nbsp; <img src="assets/logos/harbour-bank.svg" width="14" /> bsb-005 (Canada, French)</em>
 </p>
 
 All statements use fictional banks with synthetic data. No real customer information.
