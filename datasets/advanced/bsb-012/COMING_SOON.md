@@ -2,7 +2,7 @@
 
 > Singapore credit card with Chinese-only headers, inverted sign convention, scanned PDF, and fee sections
 
-**Challenges:** inverted-cc-sign-convention, fee-and-interest-sections, zero-value-informational-rows, partial-year-dates, scanned-pdf-text, header-footer-noise
+**Challenges:** charges-shown-as-negative, fee-and-interest-sections, zero-value-informational-rows, partial-year-dates, scanned-pdf-text, header-footer-noise
 
 This statement PDF has not been released yet. Check back soon.
 

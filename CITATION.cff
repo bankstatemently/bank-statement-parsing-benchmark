@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Bank Statement Parsing Benchmark"
+version: "2.1"
+date-released: "2026-08-05"
+url: "https://github.com/bankstatemently/bank-statement-parsing-benchmark"
+repository-code: "https://github.com/bankstatemently/bank-statement-parsing-benchmark"
+type: dataset
+authors:
+  - name: "Bankstatemently"
+    website: "https://bankstatemently.com"
+license: MIT

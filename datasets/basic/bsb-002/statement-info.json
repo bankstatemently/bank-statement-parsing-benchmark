@@ -4,7 +4,7 @@
   "difficulty": "basic",
   "documentType": "credit-card",
   "challenges": [
-    "inverted-cc-sign-convention",
+    "charges-shown-as-negative",
     "posting-date-selection",
     "transaction-continuation",
     "non-standard-page-size",

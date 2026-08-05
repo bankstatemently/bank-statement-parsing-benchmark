@@ -1,6 +1,6 @@
 {
-  "datasetVersion": "2.0",
-  "generatedAt": "2026-08-05T03:06:03.573Z",
+  "datasetVersion": "2.1",
+  "generatedAt": "2026-08-05T07:40:04.614Z",
   "statementCount": 15,
   "releasedCount": 5,
   "difficulties": {
@@ -13,6 +13,7 @@
     "balance-validation",
     "bilingual-headers",
     "buddhist-era-dates",
+    "charges-shown-as-negative",
     "credit-debit-columns",
     "currency-symbol-amounts",
     "currency-symbol-header-only",
@@ -25,7 +26,6 @@
     "fee-and-interest-sections",
     "fee-column",
     "header-footer-noise",
-    "inverted-cc-sign-convention",
     "mixed-locale-formatting",
     "multi-currency",
     "multi-line-descriptions",
