@@ -25,37 +25,37 @@
     {
       "label": "วันที่",
       "altLabel": "Date",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "รายการ",
       "altLabel": "Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "ช่องทาง",
       "altLabel": "Via",
-      "fieldType": "method",
+      "role": "method",
       "alignment": "left"
     },
     {
       "label": "ถอน",
       "altLabel": "Withdrawal",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "ฝาก",
       "altLabel": "Deposit",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "ยอดคงเหลือ",
       "altLabel": "Balance",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -63,7 +63,7 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "separate-columns"
+    "directionDerivation": "separate-columns"
   },
   "description": "Thai bilingual statement with Buddhist era dates, payment method column, and balance validation"
 }

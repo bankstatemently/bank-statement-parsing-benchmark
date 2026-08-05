@@ -23,32 +23,32 @@
   "columns": [
     {
       "label": "Date",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Time",
-      "fieldType": "time",
+      "role": "time",
       "alignment": "left"
     },
     {
       "label": "Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Debit",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Credit",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Balance",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -56,7 +56,7 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "separate-columns"
+    "directionDerivation": "separate-columns"
   },
   "description": "Australian bank statement with date-time dual columns, scanned PDF, and date format variations"
 }

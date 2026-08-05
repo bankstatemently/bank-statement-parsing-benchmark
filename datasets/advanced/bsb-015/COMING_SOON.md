@@ -2,7 +2,7 @@
 
 > Malaysian bilingual credit card with header-only currency symbol, scanned PDF, and multiple tables
 
-**Challenges:** bilingual-headers, mixed-locale-formatting, posting-date-selection, currency-symbol-header-only, multiple-tables, scanned-pdf-text
+**Challenges:** bilingual-headers, mixed-locale-formatting, posting-date-selection, currency-symbol-header-only, multiple-tables, scanned-pdf-text, trailing-sign-amounts
 
 This statement PDF has not been released yet. Check back soon.
 

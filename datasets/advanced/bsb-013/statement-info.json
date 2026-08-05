@@ -23,47 +23,47 @@
   "columns": [
     {
       "label": "Date",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Card No.",
-      "fieldType": "reference",
+      "role": "reference",
       "alignment": "left"
     },
     {
       "label": "Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Ccy",
-      "fieldType": "currency",
+      "role": "currency",
       "alignment": "left"
     },
     {
       "label": "Txn Amt",
-      "fieldType": "alt_amount",
+      "role": "alt_amount",
       "alignment": "right"
     },
     {
       "label": "Credit",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Debit",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Fee",
-      "fieldType": "fee",
+      "role": "debit:category:fee",
       "alignment": "right"
     },
     {
       "label": "Balance",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -71,7 +71,7 @@
   "numberFormat": {
     "decimalSeparator": ",",
     "thousandsSeparator": ".",
-    "negativeFormat": "separate-columns"
+    "directionDerivation": "separate-columns"
   },
   "description": "Kazakhstan multi-currency statement with 9-column layout, fee column, and dual currency display"
 }

@@ -24,37 +24,37 @@
   "columns": [
     {
       "label": "Date",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Reference",
-      "fieldType": "reference",
+      "role": "reference",
       "alignment": "left"
     },
     {
       "label": "Value Date",
-      "fieldType": "value_date",
+      "role": "value_date",
       "alignment": "left"
     },
     {
       "label": "Payments",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Receipts",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Balance",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -62,7 +62,7 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "separate-columns",
+    "directionDerivation": "separate-columns",
     "currencySymbol": "£",
     "currencyPosition": "before"
   },

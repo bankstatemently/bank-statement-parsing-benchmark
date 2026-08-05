@@ -1,8 +1,8 @@
 {
   "datasetVersion": "2.0",
-  "generatedAt": "2026-03-16T06:21:15.614Z",
+  "generatedAt": "2026-08-05T03:06:03.573Z",
   "statementCount": 15,
-  "releasedCount": 1,
+  "releasedCount": 5,
   "difficulties": {
     "basic": 5,
     "intermediate": 5,
@@ -19,7 +19,6 @@
     "date-carry-forward",
     "date-format-variations",
     "date-time-dual-column",
-    "date-with-time",
     "dual-balance-timeline",
     "dual-currency-display",
     "end-of-day-balance",
@@ -30,6 +29,7 @@
     "mixed-locale-formatting",
     "multi-currency",
     "multi-line-descriptions",
+    "multiple-accounts-multiple-tables",
     "multiple-accounts-single-table",
     "multiple-tables",
     "no-table-boundaries",
@@ -41,30 +41,36 @@
     "separate-counterparty-column",
     "split-date-columns-merged",
     "split-embedded-date-column",
+    "trailing-sign-amounts",
     "transaction-continuation",
+    "two-digit-year-dates",
     "zero-value-informational-rows"
   ],
   "statements": {
     "bsb-001": {
       "difficulty": "basic",
       "released": true,
-      "pdfChecksum": "78f61b9de5d86592"
+      "pdfChecksum": "7f96da7316b2b540"
     },
     "bsb-002": {
       "difficulty": "basic",
-      "released": false
+      "released": true,
+      "pdfChecksum": "f9947911a399ff0c"
     },
     "bsb-003": {
       "difficulty": "basic",
-      "released": false
+      "released": true,
+      "pdfChecksum": "d605ff5e2c803f53"
     },
     "bsb-004": {
       "difficulty": "basic",
-      "released": false
+      "released": true,
+      "pdfChecksum": "e93cacdb23195ade"
     },
     "bsb-005": {
       "difficulty": "basic",
-      "released": false
+      "released": true,
+      "pdfChecksum": "01a26c767b9488e4"
     },
     "bsb-006": {
       "difficulty": "intermediate",

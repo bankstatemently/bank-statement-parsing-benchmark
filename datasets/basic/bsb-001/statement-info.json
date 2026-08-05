@@ -17,31 +17,31 @@
   ],
   "pages": 3,
   "transactionCount": 12,
-  "published": false,
+  "published": true,
   "columns": [
     {
       "label": "Date",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Withdrawal (-)",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Deposit (+)",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Balance",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -49,7 +49,7 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "separate-columns"
+    "directionDerivation": "separate-columns"
   },
   "description": "Singapore standard format with separate credit/debit columns and dedicated account summary page"
 }

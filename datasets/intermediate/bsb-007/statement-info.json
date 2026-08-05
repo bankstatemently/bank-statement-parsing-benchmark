@@ -22,27 +22,27 @@
   "columns": [
     {
       "label": "Date de transaction",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Date d'inscription",
-      "fieldType": "value_date",
+      "role": "value_date",
       "alignment": "left"
     },
     {
       "label": "Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Remises %",
-      "fieldType": "cashback_rate",
+      "role": "cashback_rate",
       "alignment": "right"
     },
     {
       "label": "Montant",
-      "fieldType": "signed",
+      "role": "signed",
       "alignment": "right"
     }
   ],
@@ -50,7 +50,9 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "leading-minus",
+    "directionDerivation": "sign-derived",
+    "negativeSign": "leading-minus",
+    "signToDirectionMapping": "negative-is-debit",
     "currencySymbol": "$",
     "currencyPosition": "before"
   },

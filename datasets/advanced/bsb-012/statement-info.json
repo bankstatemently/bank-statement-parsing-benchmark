@@ -19,27 +19,27 @@
     "zh-Hans"
   ],
   "pages": 1,
-  "transactionCount": 33,
+  "transactionCount": 31,
   "published": false,
   "columns": [
     {
       "label": "过账日期",
-      "fieldType": "value_date",
+      "role": "value_date",
       "alignment": "left"
     },
     {
       "label": "交易日期",
-      "fieldType": "transaction_date",
+      "role": "transaction_date",
       "alignment": "left"
     },
     {
       "label": "交易说明",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "金额 (S$)",
-      "fieldType": "signed",
+      "role": "signed",
       "alignment": "right"
     }
   ],
@@ -47,7 +47,9 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "leading-minus",
+    "directionDerivation": "sign-derived",
+    "negativeSign": "leading-minus",
+    "signToDirectionMapping": "negative-is-debit",
     "currencySymbol": "S$",
     "currencyPosition": "before"
   },

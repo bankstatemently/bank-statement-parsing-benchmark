@@ -19,26 +19,26 @@
   ],
   "pages": 4,
   "transactionCount": 15,
-  "published": false,
+  "published": true,
   "columns": [
     {
       "label": "Post Date",
-      "fieldType": "value_date",
+      "role": "value_date",
       "alignment": "left"
     },
     {
       "label": "Trans Date",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Merchant Name or Transaction Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "$ Amount",
-      "fieldType": "signed",
+      "role": "signed",
       "alignment": "right"
     }
   ],
@@ -46,7 +46,9 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "leading-minus"
+    "directionDerivation": "sign-derived",
+    "negativeSign": "leading-minus",
+    "signToDirectionMapping": "negative-is-debit"
   },
   "description": "US credit card with inverted signs, posting dates, and wrapped merchant descriptions"
 }

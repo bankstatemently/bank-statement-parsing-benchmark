@@ -26,31 +26,31 @@
     {
       "label": "Date",
       "altLabel": "日期",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Description",
       "altLabel": "說明",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Withdrawals",
       "altLabel": "提款",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Deposits",
       "altLabel": "存入",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Balance",
       "altLabel": "結餘",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -58,7 +58,7 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "separate-columns",
+    "directionDerivation": "separate-columns",
     "currencySymbol": "HK$",
     "currencyPosition": "before"
   },

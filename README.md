@@ -1,10 +1,10 @@
 # Bankstatemently Open Benchmark
 
 <!-- SUBTITLE_START -->
-A standardized benchmark for evaluating bank and credit card statement PDF parsers. 15 synthetic statements across 3 difficulty tiers, 12 countries, 8 languages, and 40 parsing challenges.
+A standardized benchmark for evaluating bank and credit card statement PDF parsers. 15 synthetic statements across 3 difficulty tiers, 12 countries, 8 languages, and 41 parsing challenges.
 <!-- SUBTITLE_END -->
 
-**[Browse the dataset](https://bankstatemently.com/benchmark)** | **[Challenge browser](https://bankstatemently.com/benchmark/challenges)** | **[API docs](https://bankstatemently.com/developers/api)**
+**[Browse the dataset](https://bankstatemently.com/benchmark)** | **[Challenge browser](https://bankstatemently.com/benchmark/challenges)** | **[API docs](https://bankstatemently.com/developers/api)** | **[Also on Hugging Face](https://huggingface.co/datasets/Bankstatemently/bank-statement-parsing-benchmark)**
 
 ## Why this exists
 
@@ -71,7 +71,7 @@ manifest.json                  # Dataset version, checksums, challenge index
 | bsb-009 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇬🇧 GB | EN | Bank | 1 | 35 | Credit/debit columns, Posting dates, Balance validation, Date format variations, Currency symbols, No table boundaries | *Coming soon* |
 | bsb-010 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇮🇳 IN | EN | Bank | 25 | 500 | Credit/debit columns, Balance validation, Payment method column, Date format variations, Balance carry-forward, Date carry-forward | *Coming soon* |
 | bsb-011 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇭🇰 HK | EN/ZH | Bank | 2 | 35 | Bilingual headers, Mixed-locale formatting, Credit/debit columns, Multi-currency, Multiple accounts, End-of-day balance | *Coming soon* |
-| bsb-012 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇸🇬 SG | ZH | Credit Card | 1 | 33 | Inverted CC sign convention, Fee/interest sections, Zero-value rows, Partial-year dates, Scanned PDF, Header/footer noise | *Coming soon* |
+| bsb-012 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇸🇬 SG | ZH | Credit Card | 1 | 31 | Inverted CC sign convention, Fee/interest sections, Zero-value rows, Partial-year dates, Scanned PDF, Header/footer noise | *Coming soon* |
 | bsb-013 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇰🇿 KZ | EN | Bank | 2 | 35 | Multi-currency, Dual-currency display, Credit/debit columns, Fee column, Multiple accounts | *Coming soon* |
 | bsb-014 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇹🇭 TH | TH/EN | Bank | 1 | 28 | Buddhist era dates, Bilingual headers, Credit/debit columns, Payment method column, Balance validation | *Coming soon* |
 | bsb-015 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇲🇾 MY | EN/MS | Credit Card | 1 | 20 | Bilingual headers, Mixed-locale formatting, Posting dates, Header-only currency symbol, Multiple tables, Scanned PDF, Trailing sign amounts | *Coming soon* |
@@ -99,46 +99,47 @@ Each statement exercises specific parsing challenges found in real-world bank st
 <!-- CHALLENGES_TABLE_START -->
 | Challenge | Description | Statements |
 |-----------|-------------|:--:|
-| `balance-carry-forward-rows` | Phantom Balance Rows on Every Page | 1 |
-| `balance-validation` | Running Balance Cross-Check | 9 |
-| `bilingual-descriptions` | Bilingual Transaction Descriptions | 0 |
-| `bilingual-headers` | Bilingual Column Headers | 3 |
-| `buddhist-era-dates` | Buddhist Era Calendar (Year +543) | 1 |
-| `credit-debit-columns` | Separate Credit & Debit Columns | 10 |
-| `currency-symbol-amounts` | Currency Symbols Breaking Numeric Parsing | 2 |
-| `currency-symbol-header-only` | Currency Only Shown in Column Header | 1 |
-| `date-carry-forward` | Blank Dates for Same-Day Transactions | 1 |
-| `date-format-variations` | Inconsistent Date Formats | 4 |
-| `date-time-dual-column` | Column Mixes Times and Dates | 1 |
-| `date-with-time` | Times Mixed Into Date Column | 0 |
-| `debit-credit-appearance` | Misleading Debit/Credit Signs | 0 |
-| `dual-balance-timeline` | Dual Balance Timeline | 1 |
-| `dual-currency-display` | Two Currencies Shown Side-by-Side | 1 |
-| `end-of-day-balance` | Sparse Balance Column (End-of-Day Only) | 1 |
-| `fee-and-interest-sections` | Fees & Interest Buried in Separate Sections | 1 |
-| `fee-column` | Fees in a Separate Column | 1 |
-| `header-footer-noise` | Page Headers & Footers Mixed with Data | 1 |
-| `inverted-cc-sign-convention` | Charges Shown as Negative (Inverted Signs) | 2 |
-| `mixed-locale-formatting` | Mixed Locale Formatting | 2 |
-| `multi-currency` | Multiple Currencies in One Table | 2 |
-| `multi-line-descriptions` | Multi-Line Text Within a Cell | 2 |
-| `multiple-accounts-multiple-tables` | Separate Transaction Tables per Account | 1 |
-| `multiple-accounts-single-table` | Multiple Accounts Mixed in One Table | 2 |
-| `multiple-tables` | Transactions Split Across Multiple Tables | 2 |
-| `no-table-boundaries` | No Visible Table Lines or Borders | 1 |
-| `non-standard-page-size` | Non-Standard Page Size | 1 |
-| `partial-year-dates` | Missing Year in Dates | 4 |
-| `payment-method-column` | Payment Method/Rails Information | 2 |
-| `posting-date-selection` | Multiple Dates per Transaction | 6 |
-| `reverse-chronological-order` | Transactions Listed Newest-First | 0 |
-| `scanned-pdf-text` | No Selectable Text (Scanned PDF) | 3 |
-| `separate-counterparty-column` | Separate Counterparty Column | 1 |
-| `split-date-columns-merged` | Date Split Across Day/Month Columns | 1 |
-| `split-embedded-date-column` | Date Hidden Inside Description Text | 1 |
-| `trailing-sign-amounts` | Plus/Minus Sign After the Amount | 1 |
-| `transaction-continuation` | Description Continuation Rows | 1 |
-| `two-digit-year-dates` | Abbreviated Year in Dates | 1 |
-| `zero-value-informational-rows` | Zero-Value Fee & Interest Lines | 1 |
+| [`balance-carry-forward-rows`](https://bankstatemently.com/benchmark/challenges#balance-carry-forward-rows) | Phantom Balance Rows on Every Page | 1 |
+| [`balance-validation`](https://bankstatemently.com/benchmark/challenges#balance-validation) | Running Balance Cross-Check | 9 |
+| [`bilingual-descriptions`](https://bankstatemently.com/benchmark/challenges#bilingual-descriptions) | Bilingual Transaction Descriptions | 0 |
+| [`bilingual-headers`](https://bankstatemently.com/benchmark/challenges#bilingual-headers) | Bilingual Column Headers | 3 |
+| [`buddhist-era-dates`](https://bankstatemently.com/benchmark/challenges#buddhist-era-dates) | Buddhist Era Calendar (Year +543) | 1 |
+| [`credit-debit-columns`](https://bankstatemently.com/benchmark/challenges#credit-debit-columns) | Separate Credit & Debit Columns | 10 |
+| [`currency-symbol-amounts`](https://bankstatemently.com/benchmark/challenges#currency-symbol-amounts) | Currency Symbols Breaking Numeric Parsing | 2 |
+| [`currency-symbol-header-only`](https://bankstatemently.com/benchmark/challenges#currency-symbol-header-only) | Currency Only Shown in Column Header | 1 |
+| [`date-carry-forward`](https://bankstatemently.com/benchmark/challenges#date-carry-forward) | Blank Dates for Same-Day Transactions | 1 |
+| [`date-format-variations`](https://bankstatemently.com/benchmark/challenges#date-format-variations) | Inconsistent Date Formats | 4 |
+| [`date-time-dual-column`](https://bankstatemently.com/benchmark/challenges#date-time-dual-column) | Column Mixes Times and Dates | 1 |
+| [`date-with-time`](https://bankstatemently.com/benchmark/challenges#date-with-time) | Times Mixed Into Date Column | 0 |
+| [`debit-credit-appearance`](https://bankstatemently.com/benchmark/challenges#debit-credit-appearance) | Misleading Debit/Credit Signs | 0 |
+| [`dual-balance-timeline`](https://bankstatemently.com/benchmark/challenges#dual-balance-timeline) | Dual Balance Timeline | 1 |
+| [`dual-currency-display`](https://bankstatemently.com/benchmark/challenges#dual-currency-display) | Two Currencies Shown Side-by-Side | 1 |
+| [`end-of-day-balance`](https://bankstatemently.com/benchmark/challenges#end-of-day-balance) | Sparse Balance Column (End-of-Day Only) | 1 |
+| [`fee-and-interest-sections`](https://bankstatemently.com/benchmark/challenges#fee-and-interest-sections) | Fees & Interest Buried in Separate Sections | 1 |
+| [`fee-column`](https://bankstatemently.com/benchmark/challenges#fee-column) | Fees in a Separate Column | 1 |
+| [`header-footer-noise`](https://bankstatemently.com/benchmark/challenges#header-footer-noise) | Page Headers & Footers Mixed with Data | 1 |
+| [`inverted-cc-sign-convention`](https://bankstatemently.com/benchmark/challenges#inverted-cc-sign-convention) | Charges Shown as Negative (Inverted Signs) | 2 |
+| [`mixed-locale-formatting`](https://bankstatemently.com/benchmark/challenges#mixed-locale-formatting) | Mixed Locale Formatting | 2 |
+| [`multi-currency`](https://bankstatemently.com/benchmark/challenges#multi-currency) | Multiple Currencies in One Table | 2 |
+| [`multi-line-descriptions`](https://bankstatemently.com/benchmark/challenges#multi-line-descriptions) | Multi-Line Text Within a Cell | 2 |
+| [`multiple-accounts-multiple-tables`](https://bankstatemently.com/benchmark/challenges#multiple-accounts-multiple-tables) | Separate Transaction Tables per Account | 1 |
+| [`multiple-accounts-single-table`](https://bankstatemently.com/benchmark/challenges#multiple-accounts-single-table) | Multiple Accounts Mixed in One Table | 2 |
+| [`multiple-tables`](https://bankstatemently.com/benchmark/challenges#multiple-tables) | Transactions Split Across Multiple Tables | 2 |
+| [`no-table-boundaries`](https://bankstatemently.com/benchmark/challenges#no-table-boundaries) | No Visible Table Lines or Borders | 1 |
+| [`non-standard-page-size`](https://bankstatemently.com/benchmark/challenges#non-standard-page-size) | Non-Standard Page Size | 1 |
+| [`partial-year-dates`](https://bankstatemently.com/benchmark/challenges#partial-year-dates) | Missing Year in Dates | 4 |
+| [`payment-method-column`](https://bankstatemently.com/benchmark/challenges#payment-method-column) | Payment Method/Rails Information | 2 |
+| [`posting-date-selection`](https://bankstatemently.com/benchmark/challenges#posting-date-selection) | Multiple Dates per Transaction | 6 |
+| [`reverse-chronological-order`](https://bankstatemently.com/benchmark/challenges#reverse-chronological-order) | Transactions Listed Newest-First | 0 |
+| [`scanned-pdf-text`](https://bankstatemently.com/benchmark/challenges#scanned-pdf-text) | No Selectable Text (Scanned PDF) | 3 |
+| [`separate-counterparty-column`](https://bankstatemently.com/benchmark/challenges#separate-counterparty-column) | Separate Counterparty Column | 1 |
+| [`split-date-columns-merged`](https://bankstatemently.com/benchmark/challenges#split-date-columns-merged) | Date Split Across Day/Month Columns | 1 |
+| [`split-embedded-date-column`](https://bankstatemently.com/benchmark/challenges#split-embedded-date-column) | Date Hidden Inside Description Text | 1 |
+| [`trailing-sign-amounts`](https://bankstatemently.com/benchmark/challenges#trailing-sign-amounts) | Plus/Minus Sign After the Amount | 1 |
+| [`transaction-continuation`](https://bankstatemently.com/benchmark/challenges#transaction-continuation) | Description Continuation Rows | 1 |
+| [`two-digit-year-dates`](https://bankstatemently.com/benchmark/challenges#two-digit-year-dates) | Abbreviated Year in Dates | 1 |
+| [`year-boundary-dates`](https://bankstatemently.com/benchmark/challenges#year-boundary-dates) | Dates Crossing Year Boundary | 0 |
+| [`zero-value-informational-rows`](https://bankstatemently.com/benchmark/challenges#zero-value-informational-rows) | Zero-Value Fee & Interest Lines | 1 |
 <!-- CHALLENGES_TABLE_END -->
 
 Explore interactive examples at [bankstatemently.com/benchmark/challenges](https://bankstatemently.com/benchmark/challenges).

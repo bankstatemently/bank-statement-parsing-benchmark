@@ -2,7 +2,7 @@
 
 > Australian bank statement with date-time dual columns, scanned PDF, and date format variations
 
-**Challenges:** date-time-dual-column, date-with-time, date-format-variations, scanned-pdf-text, credit-debit-columns, balance-validation
+**Challenges:** date-time-dual-column, date-format-variations, scanned-pdf-text, credit-debit-columns, balance-validation
 
 This statement PDF has not been released yet. Check back soon.
 

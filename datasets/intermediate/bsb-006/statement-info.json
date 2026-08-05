@@ -22,32 +22,32 @@
   "columns": [
     {
       "label": "Fecha",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Concepto",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Cargos",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Abonos",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Saldo Operación",
-      "fieldType": "operation_balance",
+      "role": "operation_balance",
       "alignment": "right"
     },
     {
       "label": "Saldo Liquidación",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -55,7 +55,7 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "separate-columns"
+    "directionDerivation": "separate-columns"
   },
   "description": "Mexican bank statement with Spanish headers, dual balance timeline, and partial-year dates"
 }

@@ -19,31 +19,31 @@
   ],
   "pages": 4,
   "transactionCount": 25,
-  "published": false,
+  "published": true,
   "columns": [
     {
       "label": "Date\n日期",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Transaction Details\n進支詳情",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Deposit\n存入",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Withdrawal\n提取",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Balance\n結餘",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -51,7 +51,7 @@
   "numberFormat": {
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
-    "negativeFormat": "separate-columns"
+    "directionDerivation": "separate-columns"
   },
   "description": "Hong Kong bank statement with separate account tables, credit/debit columns, multi-line descriptions, and value date"
 }

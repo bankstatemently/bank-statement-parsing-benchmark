@@ -24,32 +24,32 @@
   "columns": [
     {
       "label": "Date",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Mode",
-      "fieldType": "method",
+      "role": "method",
       "alignment": "left"
     },
     {
       "label": "Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Deposits",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Withdrawals",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Balance",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -58,7 +58,7 @@
     "decimalSeparator": ".",
     "thousandsSeparator": ",",
     "groupingStyle": "indian",
-    "negativeFormat": "separate-columns",
+    "directionDerivation": "separate-columns",
     "currencySymbol": "₹",
     "currencyPosition": "before"
   },

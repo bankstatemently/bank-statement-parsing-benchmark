@@ -20,31 +20,31 @@
   ],
   "pages": 3,
   "transactionCount": 22,
-  "published": false,
+  "published": true,
   "columns": [
     {
       "label": "Date",
-      "fieldType": "date",
+      "role": "date",
       "alignment": "left"
     },
     {
       "label": "Interest Date",
-      "fieldType": "value_date",
+      "role": "value_date",
       "alignment": "left"
     },
     {
       "label": "Counterparty",
-      "fieldType": "counterparty",
+      "role": "counterparty",
       "alignment": "left"
     },
     {
       "label": "Description",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Amount",
-      "fieldType": "signed",
+      "role": "signed",
       "alignment": "right"
     }
   ],
@@ -52,7 +52,9 @@
   "numberFormat": {
     "decimalSeparator": ",",
     "thousandsSeparator": ".",
-    "negativeFormat": "leading-minus",
+    "directionDerivation": "sign-derived",
+    "negativeSign": "leading-minus",
+    "signToDirectionMapping": "negative-is-debit",
     "currencySymbol": "€",
     "currencyPosition": "after"
   },

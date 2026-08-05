@@ -1,8 +1,8 @@
 # bsb-014
 
-> Thai bilingual statement with Buddhist era dates, payment method column, and partial-year dates
+> Thai bilingual statement with Buddhist era dates, payment method column, and balance validation
 
-**Challenges:** buddhist-era-dates, bilingual-headers, credit-debit-columns, partial-year-dates, payment-method-column, balance-validation
+**Challenges:** buddhist-era-dates, bilingual-headers, credit-debit-columns, payment-method-column, balance-validation
 
 This statement PDF has not been released yet. Check back soon.
 

@@ -19,26 +19,26 @@
   ],
   "pages": 2,
   "transactionCount": 25,
-  "published": false,
+  "published": true,
   "columns": [
     {
       "label": "Détails",
-      "fieldType": "description",
+      "role": "description",
       "alignment": "left"
     },
     {
       "label": "Chèques et débits ($)",
-      "fieldType": "debit",
+      "role": "debit",
       "alignment": "right"
     },
     {
       "label": "Dépôts et crédits ($)",
-      "fieldType": "credit",
+      "role": "credit",
       "alignment": "right"
     },
     {
       "label": "Solde ($)",
-      "fieldType": "balance",
+      "role": "balance",
       "alignment": "right"
     }
   ],
@@ -46,7 +46,9 @@
   "numberFormat": {
     "decimalSeparator": ",",
     "thousandsSeparator": " ",
-    "negativeFormat": "leading-minus",
+    "directionDerivation": "sign-derived",
+    "negativeSign": "leading-minus",
+    "signToDirectionMapping": "negative-is-debit",
     "currencySymbol": "$",
     "currencyPosition": "after"
   },
