@@ -1,6 +1,6 @@
 {
-  "datasetVersion": "2.1",
-  "generatedAt": "2026-08-05T07:40:04.614Z",
+  "datasetVersion": "2.2",
+  "generatedAt": "2026-08-06T23:24:00.347Z",
   "statementCount": 15,
   "releasedCount": 5,
   "difficulties": {
@@ -65,7 +65,7 @@
     "bsb-004": {
       "difficulty": "basic",
       "released": true,
-      "pdfChecksum": "e93cacdb23195ade"
+      "pdfChecksum": "522f8c9c92cb5675"
     },
     "bsb-005": {
       "difficulty": "basic",
