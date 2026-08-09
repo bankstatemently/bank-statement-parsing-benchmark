@@ -6,7 +6,9 @@ The canonical, always-current leaderboard is published at [https://bankstatement
 
 One row per tool, aggregated across its scores on the released open-benchmark statements (bsb-001..bsb-005) — the same statements in this repo, so any ranking here is independently reproducible.
 
-_No open-benchmark submissions yet — see [Submissions](#submissions) below._
+| Tool | Mean Accuracy | Statements Scored |
+|---|--:|--:|
+| [Bankstatemently](https://bankstatemently.com/benchmark/results/bankstatemently) | 99.9% | 5/5 |
 
 ## Legacy Results (dbs-sg-jul-2025)
 
@@ -26,4 +28,4 @@ Our earlier methodology tested every tool against a single private DBS Bank (Sin
 
 ## Submissions
 
-Submissions from other tools are opening soon — check back for the first open-benchmark results.
+Score your own tool by running `evaluate_benchmark` against the released statements (bsb-001..bsb-005), then follow the "Submit to the leaderboard" instructions in this repository's README.

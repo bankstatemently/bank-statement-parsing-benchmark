@@ -7,7 +7,6 @@
     "credit-debit-columns",
     "multi-line-descriptions",
     "balance-validation",
-    "posting-date-selection",
     "multiple-accounts-multiple-tables"
   ],
   "bank": "silk-road",
