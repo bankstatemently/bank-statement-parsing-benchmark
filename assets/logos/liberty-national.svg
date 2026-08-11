@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <mask id="notchMask3">
+      <circle cx="60" cy="60" r="55" fill="white"/>
+      <path d="M 115.6 71.9 Q 101.2 60.0, 115.6 48.1 L 115.6 71.9 Z" fill="black"/>
+      <path d="M 107.7 29.0 Q 89.3 30.8, 91.1 12.4 L 107.7 29.0 Z" fill="black"/>
+      <path d="M 71.9 4.4 Q 60.0 18.8, 48.1 4.4 L 71.9 4.4 Z" fill="black"/>
+      <path d="M 29.0 12.4 Q 30.8 30.8, 12.4 29.0 L 29.0 12.4 Z" fill="black"/>
+      <path d="M 4.4 48.1 Q 18.8 60.0, 4.4 71.9 L 4.4 48.1 Z" fill="black"/>
+      <path d="M 12.4 91.0 Q 30.8 89.2, 29.0 107.6 L 12.4 91.0 Z" fill="black"/>
+      <path d="M 48.1 115.6 Q 60.0 101.2, 71.9 115.6 L 48.1 115.6 Z" fill="black"/>
+      <path d="M 91.1 107.6 Q 89.3 89.2, 107.7 91.0 L 91.1 107.6 Z" fill="black"/>
+    </mask>
+  </defs>
+  <circle cx="60" cy="60" r="55" fill="#E8A0B4" mask="url(#notchMask3)"/>
+</svg>

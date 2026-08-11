@@ -1,0 +1,33 @@
+{
+  "contentHash": "3d9f23c77236a295c3e83b4220bb036342415be597c7bd0b3eb085c0f51a43e4",
+  "transactions": [
+    {
+      "date": "2025-06-02",
+      "description": "NTUC FAIRPRICE",
+      "amount": 12.20,
+      "direction": "debit",
+      "balance": 15438.55,
+      "originalData": {
+        "Date": "02/06/2025",
+        "Description": "NTUC FAIRPRICE",
+        "Withdrawal (-)": "12.20",
+        "Deposit (+)": "",
+        "Balance": "15,438.55"
+      }
+    },
+    {
+      "date": "2025-06-02",
+      "description": "SALARY CREDIT - ACME PTE LTD",
+      "amount": 5200.00,
+      "direction": "credit",
+      "balance": 20638.55,
+      "originalData": {
+        "Date": "02/06/2025",
+        "Description": "SALARY CREDIT - ACME PTE LTD",
+        "Withdrawal (-)": "",
+        "Deposit (+)": "5,200.00",
+        "Balance": "20,638.55"
+      }
+    }
+  ]
+}
