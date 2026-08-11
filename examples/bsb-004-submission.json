@@ -1,0 +1,64 @@
+{
+  "contentHash": "522f8c9c92cb567580ffca4ac5ff9d4caea7d831764671de0ab8ae0878e513c2",
+  "accounts": [
+    {
+      "id": "acc-hkd-current",
+      "accountNumber": "817-890692-838",
+      "name": "HKD Current Account — 817-890692-838",
+      "currency": "HKD"
+    },
+    {
+      "id": "acc-usd-savings",
+      "accountNumber": "817-890692-002",
+      "name": "USD Savings Account — 817-890692-002",
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-06-27",
+      "description": "FPS PAYMENT 7404351 TO: HKIRD P6678346QR",
+      "amount": 52999.28,
+      "direction": "credit",
+      "currency": "HKD",
+      "accountId": "acc-hkd-current",
+      "originalData": {
+        "Date": "27 Jun",
+        "Transaction Details": "FPS PAYMENT 7404351\nTO: HKIRD\nP6678346QR",
+        "Deposit": "52,999.28",
+        "Withdrawal": "",
+        "Balance": ""
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "description": "FPS PAYMENT 1465378 TO: PARKnSHOP",
+      "amount": 12977.92,
+      "direction": "debit",
+      "currency": "HKD",
+      "accountId": "acc-hkd-current",
+      "originalData": {
+        "Date": "1 Jul",
+        "Transaction Details": "FPS PAYMENT 1465378\nTO: PARKnSHOP",
+        "Deposit": "",
+        "Withdrawal": "12,977.92",
+        "Balance": ""
+      }
+    },
+    {
+      "date": "2025-07-18",
+      "description": "FASTER PAYMENT 7304589 TO: Uniqlo HK",
+      "amount": 832.71,
+      "direction": "debit",
+      "currency": "USD",
+      "accountId": "acc-usd-savings",
+      "originalData": {
+        "Date": "18 Jul",
+        "Transaction Details": "FASTER PAYMENT 7304589\nTO: Uniqlo HK",
+        "Deposit": "",
+        "Withdrawal": "832.71",
+        "Balance": ""
+      }
+    }
+  ]
+}

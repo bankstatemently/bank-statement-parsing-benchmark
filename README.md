@@ -227,7 +227,15 @@ Get a free API key at [bankstatemently.com/developers](https://bankstatemently.c
 ```typescript
 interface Submission {
   contentHash: string;         // SHA-256 hex digest of the PDF (64 chars)
+  accounts?: Account[];        // Optional — only needed for multi-account statements (see below)
   transactions: Transaction[];
+}
+
+interface Account {
+  id: string;                  // Submission-internal handle, referenced by Transaction.accountId
+  accountNumber?: string;      // Verbatim as printed — never normalize this
+  name?: string;                // Verbatim as printed
+  currency?: string;           // ISO 4217 currency code
 }
 
 interface Transaction {
@@ -238,12 +246,25 @@ interface Transaction {
   balance?: number;            // Running balance if available
   currency?: string;           // ISO currency code (for multi-currency statements)
   originalData: Record<string, string>; // Raw cell values as they appear in the PDF (required)
+  accountId?: string;          // References Account.id — which account this row belongs to
 }
 ```
 
+`accounts`/`accountId` are for **multi-account statements** (e.g. a statement printing
+several accounts across one or more tables). Omitting `accounts` entirely is valid and
+behaves exactly as before: every transaction is scored as belonging to one implicit
+account. When a statement genuinely has more than one account, submit `accounts` and set
+each transaction's `accountId` — a submission that fails to attribute rows to the correct
+account is scored accordingly (a flat, unpartitioned submission against a multi-account
+statement is penalized, not silently treated as correct).
+
 ## Example submission
 
-See [`examples/bsb-001-submission.json`](examples/bsb-001-submission.json) for a complete submission with all 12 transactions, including `originalData` for each row.
+See [`examples/bsb-001-submission.json`](examples/bsb-001-submission.json) for a complete
+single-account submission with all 12 transactions, including `originalData` for each row,
+and [`examples/bsb-004-submission.json`](examples/bsb-004-submission.json) for a
+**two-account** submission (excerpted — not every transaction) showing the `accounts[]` +
+`accountId` shape.
 
 ## Dataset integrity
 
@@ -267,6 +288,30 @@ against a superseded PDF is not comparable to results against the current one.
 Check here before comparing results across dates.
 
 <!-- CHANGELOG_START -->
+### 2026-08-11: bsb-001, Straits Capital (Singapore)
+
+Reissued to fix a benchmark-generator reproducibility bug (non-deterministic PDF metadata: creation date, embedded font-subset tags, image object ordering). Printed content and every ground-truth answer are unchanged.
+
+- Original PDF sha256: `7f96da7316b2b540f2f8ecfc4151cd242a501be3ed84204a15bfbbe3c355531b`
+- Superseded by: `8a5b0e296d5d9ffaccfe6e8d99e0b52f7f60db76db54132c8c9ce6b8cbd52720`
+- Parses or scores produced against the original PDF remain valid (content is unchanged) but were keyed to a superseded hash — re-key to the current hash rather than re-parsing.
+
+### 2026-08-11: bsb-002, Liberty National (United States)
+
+Reissued to fix a benchmark-generator reproducibility bug (non-deterministic PDF metadata: creation date, embedded font-subset tags, image object ordering). Printed content and every ground-truth answer are unchanged.
+
+- Original PDF sha256: `f9947911a399ff0ccb7e8afde6e3380e3f7a1f61a5809b68022ce0b9ba449b06`
+- Superseded by: `7632b2a50b3ab172e18f03ea110241660c220a4ef738bbfb683eba4cccbbc324`
+- Parses or scores produced against the original PDF remain valid (content is unchanged) but were keyed to a superseded hash — re-key to the current hash rather than re-parsing.
+
+### 2026-08-11: bsb-003, Continental Trust (Netherlands)
+
+Reissued to fix a benchmark-generator reproducibility bug (non-deterministic PDF metadata: creation date, embedded font-subset tags, image object ordering). Printed content and every ground-truth answer are unchanged.
+
+- Original PDF sha256: `d605ff5e2c803f531c18d295354f135017c56082538f41e53d6c37452604a566`
+- Superseded by: `4bad73296bdbcf7142b62c8af421527f88d1d3a6865617e9fea48e6f51c704a1`
+- Parses or scores produced against the original PDF remain valid (content is unchanged) but were keyed to a superseded hash — re-key to the current hash rather than re-parsing.
+
 ### 2026-08-07: bsb-004, Silk Road Banking (Hong Kong)
 
 Reissued to correct errors in the original statement. The second account is now denominated in USD, with a disclosed FX rate.
@@ -274,6 +319,22 @@ Reissued to correct errors in the original statement. The second account is now 
 - Original PDF sha256: `e93cacdb23195adefdf13ef4ba9528f55454c6fb2dc83624fe9c5077c5bc6455`
 - Superseded by: `522f8c9c92cb567580ffca4ac5ff9d4caea7d831764671de0ab8ae0878e513c2`
 - Parses or scores produced against the original PDF are not comparable. Re-parse the reissued PDF.
+
+### 2026-08-11: bsb-004, Silk Road Banking (Hong Kong)
+
+Reissued to fix the same generator reproducibility bug as the other released statements, plus a generator fix to how ground-truth account identity is derived: the account name no longer bakes in the account number, which lets a parser that correctly componentizes the printed heading exact-match cross-engine. Printed content (including the heading) is unchanged.
+
+- Original PDF sha256: `522f8c9c92cb567580ffca4ac5ff9d4caea7d831764671de0ab8ae0878e513c2`
+- Superseded by: `0a4201b0e1a9c9ed834a2dce898a97ef8bac2b959ae6e3eb041c59328e0b19d1`
+- Parses or scores produced against the previous PDF remain valid (printed content is unchanged) but were keyed to a superseded hash — re-key to the current hash rather than re-parsing.
+
+### 2026-08-11: bsb-005, Harbour Bank (Canada)
+
+Reissued to fix a benchmark-generator reproducibility bug (non-deterministic PDF metadata: creation date, embedded font-subset tags, image object ordering). Printed content and every ground-truth answer are unchanged.
+
+- Original PDF sha256: `01a26c767b9488e45b358b329e2c9ea3d9fba05878a1963da06fde899827debb`
+- Superseded by: `8919aa5abdb06d377898e5cc78751661fcc80a25a89a477af49ceb0f0d7fe143`
+- Parses or scores produced against the original PDF remain valid (content is unchanged) but were keyed to a superseded hash — re-key to the current hash rather than re-parsing.
 <!-- CHANGELOG_END -->
 
 ## Submit to the leaderboard
