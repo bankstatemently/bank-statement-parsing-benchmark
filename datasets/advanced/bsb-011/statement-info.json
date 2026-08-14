@@ -1,6 +1,6 @@
 {
   "id": "bsb-011",
-  "contentHash": "49a49a7b2dc6c97895cfa0a276a46dbe14450968cbe3efa4e25d19f8c2f2ae79",
+  "contentHash": "9890b028d4ce46e258a8565082b2130cb7d9b33408a4f9190af10ffb0302f32f",
   "difficulty": "advanced",
   "documentType": "bank-statement",
   "challenges": [
@@ -19,7 +19,7 @@
     "en",
     "zh-Hant"
   ],
-  "pages": 2,
+  "pages": 3,
   "transactionCount": 35,
   "published": false,
   "columns": [

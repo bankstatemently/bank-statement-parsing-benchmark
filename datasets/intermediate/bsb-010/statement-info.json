@@ -1,6 +1,6 @@
 {
   "id": "bsb-010",
-  "contentHash": "fa7daf95b19f15d55482af72124927c9780afd11941be00bbb03ac07670d72b7",
+  "contentHash": "45bca3d3c46bb1b93894aca5dcc1ce51347dcc4a3ccb272f8572f4f3313762d1",
   "difficulty": "intermediate",
   "documentType": "bank-statement",
   "challenges": [
@@ -18,7 +18,7 @@
   "languages": [
     "en"
   ],
-  "pages": 25,
+  "pages": 27,
   "transactionCount": 500,
   "published": false,
   "columns": [

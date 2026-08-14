@@ -63,16 +63,16 @@ manifest.json                  # Dataset version, checksums, challenge index
 | bsb-001 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇸🇬 SG | EN | Bank | 3 | 12 | Separate Credit & Debit Columns, Running Balance Cross-Check, Multi-Line Text Within a Cell | ✓ |
 | bsb-002 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇺🇸 US | EN | Credit Card | 4 | 15 | Charges Shown as Negative, Multiple Dates per Transaction, Description Continuation Rows, Non-Standard Page Size, Missing Year in Dates | ✓ |
 | bsb-003 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇳🇱 NL | NL/EN | Bank | 3 | 22 | Multiple Dates per Transaction, Separate Counterparty Column, Running Balance Cross-Check, Currency Symbols Breaking Numeric Parsing, Missing Year in Dates | ✓ |
-| bsb-004 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇭🇰 HK | EN | Bank | 4 | 25 | Separate Credit & Debit Columns, Multi-Line Text Within a Cell, Running Balance Cross-Check, Separate Transaction Tables per Account | ✓ |
+| bsb-004 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇭🇰 HK | EN | Bank | 5 | 25 | Separate Credit & Debit Columns, Multi-Line Text Within a Cell, Running Balance Cross-Check, Separate Transaction Tables per Account | ✓ |
 | bsb-005 | ![basic](https://img.shields.io/badge/basic-4ade80?style=flat-square) | 🇨🇦 CA | FR | Bank | 2 | 25 | Date Hidden Inside Description Text, Separate Credit & Debit Columns, Abbreviated Year in Dates, Inconsistent Date Formats, Running Balance Cross-Check | ✓ |
 | bsb-006 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇲🇽 MX | ES | Bank | 1 | 30 | Separate Credit & Debit Columns, Dual Balance Timeline, Missing Year in Dates, Running Balance Cross-Check | *Coming soon* |
 | bsb-007 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇨🇦 CA | FR/EN | Credit Card | 1 | 25 | Multiple Dates per Transaction, Date Split Across Day/Month Columns, Transactions Split Across Multiple Tables | *Coming soon* |
 | bsb-008 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇦🇺 AU | EN | Bank | 1 | 30 | Column Mixes Times and Dates, Inconsistent Date Formats, No Selectable Text (Scanned PDF), Separate Credit & Debit Columns, Running Balance Cross-Check | *Coming soon* |
 | bsb-009 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇬🇧 GB | EN | Bank | 1 | 35 | Separate Credit & Debit Columns, Multiple Dates per Transaction, Running Balance Cross-Check, Inconsistent Date Formats, Currency Symbols Breaking Numeric Parsing, No Visible Table Lines or Borders | *Coming soon* |
-| bsb-010 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇮🇳 IN | EN | Bank | 25 | 500 | Separate Credit & Debit Columns, Running Balance Cross-Check, Payment Method/Rails Information, Inconsistent Date Formats, Phantom Balance Rows on Every Page, Blank Dates for Same-Day Transactions | *Coming soon* |
-| bsb-011 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇭🇰 HK | EN/ZH | Bank | 2 | 35 | Bilingual Column Headers, Mixed Number Formats, Separate Credit & Debit Columns, Multiple Currencies in One Table, Multiple Accounts Mixed in One Table, Sparse Balance Column (End-of-Day Only) | *Coming soon* |
+| bsb-010 | ![intermediate](https://img.shields.io/badge/intermediate-fbbf24?style=flat-square) | 🇮🇳 IN | EN | Bank | 27 | 500 | Separate Credit & Debit Columns, Running Balance Cross-Check, Payment Method/Rails Information, Inconsistent Date Formats, Phantom Balance Rows on Every Page, Blank Dates for Same-Day Transactions | *Coming soon* |
+| bsb-011 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇭🇰 HK | EN/ZH | Bank | 3 | 35 | Bilingual Column Headers, Mixed Number Formats, Separate Credit & Debit Columns, Multiple Currencies in One Table, Multiple Accounts Mixed in One Table, Sparse Balance Column (End-of-Day Only) | *Coming soon* |
 | bsb-012 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇸🇬 SG | ZH | Credit Card | 1 | 31 | Charges Shown as Negative, Fees & Interest Buried in Separate Sections, Zero-Value Fee & Interest Lines, Missing Year in Dates, No Selectable Text (Scanned PDF), Page Headers & Footers Mixed with Data | *Coming soon* |
-| bsb-013 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇰🇿 KZ | EN | Bank | 2 | 35 | Multiple Currencies in One Table, Two Currencies Shown Side-by-Side, Separate Credit & Debit Columns, Fees in a Separate Column, Multiple Accounts Mixed in One Table | *Coming soon* |
+| bsb-013 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇰🇿 KZ | EN | Bank | 3 | 35 | Multiple Currencies in One Table, Two Currencies Shown Side-by-Side, Separate Credit & Debit Columns, Fees in a Separate Column, Multiple Accounts Mixed in One Table | *Coming soon* |
 | bsb-014 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇹🇭 TH | TH/EN | Bank | 1 | 28 | Buddhist Era Calendar (Year +543), Bilingual Column Headers, Separate Credit & Debit Columns, Payment Method/Rails Information, Running Balance Cross-Check | *Coming soon* |
 | bsb-015 | ![advanced](https://img.shields.io/badge/advanced-f87171?style=flat-square) | 🇲🇾 MY | EN/MS | Credit Card | 1 | 20 | Bilingual Column Headers, Mixed Number Formats, Multiple Dates per Transaction, Currency Only Shown in Column Header, Transactions Split Across Multiple Tables, No Selectable Text (Scanned PDF), Plus/Minus Sign After the Amount | *Coming soon* |
 <!-- STATEMENTS_TABLE_END -->
@@ -335,6 +335,46 @@ Reissued to fix a benchmark-generator reproducibility bug (non-deterministic PDF
 - Original PDF sha256: `01a26c767b9488e45b358b329e2c9ea3d9fba05878a1963da06fde899827debb`
 - Superseded by: `8919aa5abdb06d377898e5cc78751661fcc80a25a89a477af49ceb0f0d7fe143`
 - Parses or scores produced against the original PDF remain valid (content is unchanged) but were keyed to a superseded hash — re-key to the current hash rather than re-parsing.
+
+### 2026-08-14: bsb-001, Straits Capital (Singapore)
+
+Reissued to fix account numbers that were previously a static, non-random digit string shared by every synthetic statement for that banking tag. Account numbers now come from a country-keyed format table (#4931).
+
+- Original PDF sha256: `8a5b0e296d5d9ffaccfe6e8d99e0b52f7f60db76db54132c8c9ce6b8cbd52720`
+- Superseded by: `d3d5071b90a33272f31bab5c5660d78b2ae29d2c6e1720477f5e8b167f73e843`
+- Parses or scores produced against the previous PDF are not comparable — the printed account number changed, which changes account identity and every dependent ground-truth value. Re-parse the reissued PDF.
+
+### 2026-08-14: bsb-002, Liberty National (United States)
+
+Reissued to fix account numbers that were previously a static, non-random digit string shared by every synthetic statement for that banking tag. Account numbers now come from a country-keyed format table (#4931).
+
+- Original PDF sha256: `7632b2a50b3ab172e18f03ea110241660c220a4ef738bbfb683eba4cccbbc324`
+- Superseded by: `3700a073ac1262173cbabbd5667cd3a59e04cf0b14e3a865ae25ce21089ab97d`
+- Parses or scores produced against the previous PDF are not comparable — the printed account number changed, which changes account identity and every dependent ground-truth value. Re-parse the reissued PDF.
+
+### 2026-08-14: bsb-003, Continental Trust (Netherlands)
+
+Reissued to fix the account number: NL is an IBAN country, but the old template randomized a two-letter "country code" instead of emitting NL's literal IBAN prefix, and the checksum was never a valid ISO 7064 mod-97-10 IBAN check digit. Account numbers now come from a country-keyed format table that emits a real, check-digit-valid IBAN for NL (#4931).
+
+- Original PDF sha256: `4bad73296bdbcf7142b62c8af421527f88d1d3a6865617e9fea48e6f51c704a1`
+- Superseded by: `4945bcda107e6d7845850e728b90c4dba1cb11de5a13356b0794df349e5527c2`
+- Parses or scores produced against the previous PDF are not comparable — the printed account number changed, which changes account identity and every dependent ground-truth value. Re-parse the reissued PDF.
+
+### 2026-08-14: bsb-004, Silk Road Banking (Hong Kong)
+
+Reissued to fix account numbers that were previously a static, non-random digit string shared by every synthetic statement for that banking tag. Hong Kong has no single documented national account-number scheme, so the new generic digit format is honestly noted as such rather than citing a fabricated standard. Account numbers now come from a country-keyed format table (#4931).
+
+- Original PDF sha256: `0a4201b0e1a9c9ed834a2dce898a97ef8bac2b959ae6e3eb041c59328e0b19d1`
+- Superseded by: `67a5b862696fc06e675db53867be6fcc71a4ecc13998193e8b45e2cd63371051`
+- Parses or scores produced against the previous PDF are not comparable — the printed account number changed, which changes account identity and every dependent ground-truth value. Re-parse the reissued PDF.
+
+### 2026-08-14: bsb-005, Harbour Bank (Canada)
+
+Reissued to fix the account number: Canada has no IBAN, but the old template printed a French IBAN (inherited from the base `fr.json` dictionary — format was keyed by language, not jurisdiction). Account numbers are now keyed by country, so `fr-CA` prints Canada's 5-digit-transit + 3-digit-institution + 7-digit-account format instead of France's IBAN (#4931).
+
+- Original PDF sha256: `8919aa5abdb06d377898e5cc78751661fcc80a25a89a477af49ceb0f0d7fe143`
+- Superseded by: `a5cc2a7d210bc657c55b44ac159c5d10b2d71553f3646ce17a64051f918fd960`
+- Parses or scores produced against the previous PDF are not comparable — the printed account number changed, which changes account identity and every dependent ground-truth value. Re-parse the reissued PDF.
 <!-- CHANGELOG_END -->
 
 ## Submit to the leaderboard

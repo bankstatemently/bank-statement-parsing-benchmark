@@ -1,6 +1,6 @@
 {
   "datasetVersion": "2.4",
-  "generatedAt": "2026-08-11T10:52:54.292Z",
+  "generatedAt": "2026-08-14T10:09:16.582Z",
   "statementCount": 15,
   "releasedCount": 5,
   "difficulties": {
@@ -50,27 +50,27 @@
     "bsb-001": {
       "difficulty": "basic",
       "released": true,
-      "pdfChecksum": "8a5b0e296d5d9ffa"
+      "pdfChecksum": "d3d5071b90a33272"
     },
     "bsb-002": {
       "difficulty": "basic",
       "released": true,
-      "pdfChecksum": "7632b2a50b3ab172"
+      "pdfChecksum": "3700a073ac126217"
     },
     "bsb-003": {
       "difficulty": "basic",
       "released": true,
-      "pdfChecksum": "4bad73296bdbcf71"
+      "pdfChecksum": "4945bcda107e6d78"
     },
     "bsb-004": {
       "difficulty": "basic",
       "released": true,
-      "pdfChecksum": "0a4201b0e1a9c9ed"
+      "pdfChecksum": "67a5b862696fc06e"
     },
     "bsb-005": {
       "difficulty": "basic",
       "released": true,
-      "pdfChecksum": "8919aa5abdb06d37"
+      "pdfChecksum": "a5cc2a7d210bc657"
     },
     "bsb-006": {
       "difficulty": "intermediate",

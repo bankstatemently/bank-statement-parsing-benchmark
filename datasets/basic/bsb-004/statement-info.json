@@ -1,6 +1,6 @@
 {
   "id": "bsb-004",
-  "contentHash": "0a4201b0e1a9c9ed834a2dce898a97ef8bac2b959ae6e3eb041c59328e0b19d1",
+  "contentHash": "67a5b862696fc06e675db53867be6fcc71a4ecc13998193e8b45e2cd63371051",
   "difficulty": "basic",
   "documentType": "bank-statement",
   "challenges": [
@@ -16,7 +16,7 @@
   "languages": [
     "en"
   ],
-  "pages": 4,
+  "pages": 5,
   "transactionCount": 25,
   "published": true,
   "columns": [
