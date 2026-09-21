@@ -1,0 +1,250 @@
+{
+  "contentHash": "3700a073ac1262173cbabbd5667cd3a59e04cf0b14e3a865ae25ce21089ab97d",
+  "accounts": [
+    {
+      "id": "a1",
+      "accountNumber": "42463545457551107000005874664265144700000002",
+      "name": "Liberty National Bank, N.A.",
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-09-01",
+      "description": "UBER TRIP",
+      "amount": 531.56,
+      "direction": "debit",
+      "balance": 1847.32,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/01",
+        "Trans Date": "09/01",
+        "Merchant Name or Transaction Description": "UBER TRIP",
+        "Amount": "531.56",
+        "REF": "775648"
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "description": "WHOLE FOODS MARKET",
+      "amount": 1124.43,
+      "direction": "debit",
+      "balance": 2971.75,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/07",
+        "Trans Date": "09/07",
+        "Merchant Name or Transaction Description": "WHOLE FOODS MARKET",
+        "Amount": "1,124.43",
+        "REF": "369975"
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "description": "CHIPOTLE MEXICAN",
+      "amount": 5.32,
+      "direction": "debit",
+      "balance": 3077.18,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/08",
+        "Trans Date": "09/08",
+        "Merchant Name or Transaction Description": "CHIPOTLE MEXICAN",
+        "Amount": "5.32"
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "description": "APPLE.COM/BILL",
+      "amount": 293.13,
+      "direction": "debit",
+      "balance": 3170.31,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/10",
+        "Trans Date": "09/10",
+        "Merchant Name or Transaction Description": "APPLE.COM/BILL",
+        "Amount": "293.13",
+        "REF": "945454"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "description": "STARBUCKS COFFEE",
+      "amount": 1520.75,
+      "direction": "debit",
+      "balance": 4691.06,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/13",
+        "Trans Date": "09/13",
+        "Merchant Name or Transaction Description": "STARBUCKS COFFEE",
+        "Amount": "1,520.75",
+        "REF": "DD-44920-NYC ETA 35minU"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "description": "WALMART SUPERCENTER",
+      "amount": 28.13,
+      "direction": "debit",
+      "balance": 4719.19,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/13",
+        "Trans Date": "09/13",
+        "Merchant Name or Transaction Description": "WALMART SUPERCENTER",
+        "Amount": "28.13",
+        "REF": "Kroger store #8841 receipt 44-D2019-US"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "description": "SPOTIFY USA K",
+      "amount": 8.52,
+      "direction": "debit",
+      "balance": 4727.71,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/13",
+        "Trans Date": "09/13",
+        "Merchant Name or Transaction Description": "SPOTIFY USA K",
+        "Amount": "8.52",
+        "REF.:": "POS-188972"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "description": "TARGHET STORE",
+      "amount": 1912.64,
+      "direction": "debit",
+      "balance": 4736.35,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/17",
+        "Trans Date": "09/17",
+        "Merchant Name or Transaction Description": "TARGHET STORE",
+        "Amount": "1,912.64",
+        "REF": "Trader Joe's receipt #TJ-44920-US store 421"
+      }
+    },
+    {
+      "date": "2025-09-21",
+      "description": "APPLE.COM/BILL",
+      "amount": 1095.48,
+      "direction": "debit",
+      "balance": 4736.35,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/21",
+        "Trans Date": "09/21",
+        "Merchant Name or Transaction Description": "APPLE.COM/BILL",
+        "Amount": "1,095.48"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "description": "NETFLIX.COM",
+      "amount": 30.21,
+      "direction": "debit",
+      "balance": 4736.35,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/23",
+        "Trans Date": "09/23",
+        "Merchant Name or Transaction Description": "NETFLIX.COM",
+        "Amount": "30.21",
+        "REF": "Uber trip UBR-4421-002-NYC receipt"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "description": "CLOTHING STORE",
+      "amount": 42.22,
+      "direction": "debit",
+      "balance": 4736.35,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/26",
+        "Trans Date": "09/26",
+        "Merchant Name or Transaction Description": "CLOTHING STORE",
+        "Amount": "42.22",
+        "REF": "Gap Factory receipt #GAP-44920-NY store 88"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "description": "SPOTIFY USA",
+      "amount": 5.08,
+      "direction": "debit",
+      "balance": 4736.35,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/26",
+        "Trans Date": "09/26",
+        "Merchant Name or Transaction Description": "SPOTIFY USA",
+        "Amount": "5.08"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "description": "WALGREENS",
+      "amount": 1065.49,
+      "direction": "debit",
+      "balance": 4736.35,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/26",
+        "Trans Date": "09/26",
+        "Merchant Name or Transaction Description": "WALGREENS",
+        "Amount": "1,065.49",
+        "REF": "Walgreens store #0441 script fill #WLG-8841"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "description": "COSTCO WHOLESALE",
+      "amount": 36.47,
+      "direction": "debit",
+      "balance": 4736.35,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/28",
+        "Trans Date": "09/28",
+        "Merchant Name or Transaction Description": "COSTCO WHOLESALE",
+        "Amount": "36.47",
+        "REF.:": "POS-402448"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "description": "REWARDS REDEMPTION",
+      "amount": 13.84,
+      "direction": "credit",
+      "balance": 1847.32,
+      "currency": "USD",
+      "accountId": "a1",
+      "originalData": {
+        "Post Date": "09/12",
+        "Trans Date": "09/11",
+        "Merchant Name or Transaction Description": "REWARDS REDEMPTION",
+        "Amount": "-13.84",
+        "REF": "Chase Ultimate Rewards credit ref CUR-8841"
+      }
+    }
+  ]
+}

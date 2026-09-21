@@ -1,0 +1,511 @@
+{
+  "contentHash": "67a5b862696fc06e675db53867be6fcc71a4ecc13998193e8b45e2cd63371051",
+  "accounts": [
+    {
+      "id": "a1",
+      "accountNumber": "817-890692-838",
+      "name": "HKD Current Account",
+      "currency": "HKD"
+    },
+    {
+      "id": "a2",
+      "accountNumber": "817-890692-002",
+      "name": "USD Savings Account",
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-09-01",
+      "description": "Faster payment to Deliveroo",
+      "amount": 153.01,
+      "direction": "credit",
+      "balance": 42426.99,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "1 Sep",
+        "Transaction Details": "Faster payment",
+        "Deposit": "",
+        "Withdrawal": "",
+        "Balance": "42,426.99",
+        "TO: Deliveroo": "TO: Deliveroo",
+        "P3704085QR": "P3704085QR",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "description": "Fps payment to Watsons HK",
+      "amount": 1932.0,
+      "direction": "credit",
+      "balance": 40494.99,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "2 Sep",
+        "Transaction Details": "Fps payment",
+        "Deposit": "",
+        "Withdrawal": "",
+        "Balance": "40,494.99",
+        "TO: Watsons HK": "TO: Watsons HK",
+        "FPS TRANSFER 4317616": "FPS TRANSFER 4317616",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "description": "Fps transfer to Deliveroo",
+      "amount": 292.69,
+      "direction": "credit",
+      "balance": 40202.3,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "3 Sep",
+        "Transaction Details": "Fps transfer",
+        "Deposit": "",
+        "Withdrawal": "",
+        "Balance": "40,202.30",
+        "TO: Deliveroo": "TO: Deliveroo",
+        "P4161927QR": "P4161927QR",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "description": "Fps received from MPF",
+      "amount": 298.25,
+      "direction": "credit",
+      "balance": 40500.55,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "5 Sep",
+        "Transaction Details": "Fps received",
+        "Deposit": "298.25",
+        "Withdrawal": "",
+        "Balance": "40,500.55",
+        "TO: MPF": "TO: MPF",
+        "FPS TRANSFER 4035786": "FPS TRANSFER 4035786",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "description": "Chats payment to MTR H",
+      "amount": 1364.41,
+      "direction": "debit",
+      "balance": 39136.14,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "6 Sep",
+        "Transaction Details": "Chats payment",
+        "Deposit": "",
+        "Withdrawal": "1,364.41",
+        "Balance": "39,136.14",
+        "FPS PAYMENT 466E5823": "FPS PAYMENT 466E5823",
+        "TO: MTR H": "TO: MTR H",
+        "P4727275TQR": "P4727275TQR",
+        "OTHNER": "OTHNER"
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "description": "Chats payment to Fortress",
+      "amount": 392.44,
+      "direction": "debit",
+      "balance": 38743.7,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "7 Sep",
+        "Transaction Details": "Chats payment",
+        "Deposit": "",
+        "Withdrawal": "392.44",
+        "Balance": "38,743.70",
+        "FPS PAYMENT 4342274": "FPS PAYMENT 4342274",
+        "TO: Fortress": "TO: Fortress",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "description": "Fps payment to Deliveroo",
+      "amount": 6510.43,
+      "direction": "debit",
+      "balance": 32233.27,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "12 Sep",
+        "Transaction Details": "Fps",
+        "Deposit": "",
+        "Withdrawal": "6,510.43",
+        "Balance": "32,233.27",
+        "TO: Deliveroo": "TO: Deliveroo",
+        "FASTER PAYMENT 5098032": "FASTER PAYMENT 5098032",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "description": "Fps payment to MTR",
+      "amount": 4771.08,
+      "direction": "debit",
+      "balance": 27462.19,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "13 Sep",
+        "Transaction Details": "Fps payment",
+        "Deposit": "",
+        "Withdrawal": "4,771.08",
+        "Balance": "27,462.19",
+        "TO: MTR": "TO: MTR",
+        "FASTER PAYMENT 4534921": "FASTER PAYMENT 4534921",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "description": "Chats payment to H&M HK",
+      "amount": 232.85,
+      "direction": "debit",
+      "balance": 27229.34,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "13 Sep",
+        "Transaction Details": "Chats payment",
+        "Deposit": "",
+        "Withdrawal": "232.85",
+        "Balance": "27,229.34",
+        "TO: H&M HK": "TO: H&M HK",
+        "FPS TRANSFER 7940237": "FPS TRANSFER 7940237",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "description": "Fps transfer to McDonald's HK",
+      "amount": 181.62,
+      "direction": "debit",
+      "balance": 27047.72,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "14 Sep",
+        "Transaction Details": "Fps transfer",
+        "Deposit": "",
+        "Withdrawal": "181.62",
+        "Balance": "27,047.72",
+        "TO: McDonald's HK": "TO: McDonald's HK",
+        "FASTER PAYMENT 6757548": "FASTER PAYMENT 6757548",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "description": "Chats payment to Zara HK",
+      "amount": 3554.02,
+      "direction": "debit",
+      "balance": 23493.7,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "14 Sep",
+        "Transaction Details": "Chats",
+        "Deposit": "",
+        "Withdrawal": "3,554.02",
+        "Balance": "23,493.70",
+        "TO: Zara HK": "TO: Zara HK",
+        "FASTER PAYMENT 9982744": "FASTER PAYMENT 9982744",
+        "P7818547QR": "P7818547QR",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "description": "Fps payment to Deliveroo",
+      "amount": 4728.04,
+      "direction": "debit",
+      "balance": 18765.66,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "17 Sep",
+        "Transaction Details": "Fps payment",
+        "Deposit": "",
+        "Withdrawal": "4,728.04",
+        "Balance": "18,765.66",
+        "TO: Deliveroo": "TO: Deliveroo",
+        "FASTER PAYMENT 7869997": "FASTER PAYMENT 7869997",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "description": "Fps received from Rating and Valuation",
+      "amount": 235.54,
+      "direction": "credit",
+      "balance": 19001.2,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "19 Sep",
+        "Transaction Details": "Fps received",
+        "Deposit": "235.54",
+        "Withdrawal": "",
+        "Balance": "19,001.20",
+        "TO: Rating and Valuation": "TO: Rating and Valuation",
+        "FPS PAYMENT 9214246": "FPS PAYMENT 9214246",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "description": "Fps payment to Amazon",
+      "amount": 263.97,
+      "direction": "debit",
+      "balance": 18737.23,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "19 Sep",
+        "Transaction Details": "Fps",
+        "Deposit": "",
+        "Withdrawal": "263.97",
+        "Balance": "18,737.23",
+        "TO: Amazon": "TO: Amazon",
+        "FPS PAYMENT 9247994": "FPS PAYMENT 9247994",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "description": "Chats payment to H&M HK",
+      "amount": 373.11,
+      "direction": "debit",
+      "balance": 18364.12,
+      "currency": "HKD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "20 Sep",
+        "Transaction Details": "Chats",
+        "Deposit": "",
+        "Withdrawal": "373.11",
+        "Balance": "18,364.12",
+        "TO: H&M HK": "TO: H&M HK",
+        "FASTER PAYMENT 3559781": "FASTER PAYMENT 3559781",
+        "P8416130QR": "P8416130QR",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "description": "Fps transfer to Mannings",
+      "amount": 181.04,
+      "direction": "credit",
+      "balance": 149818.96,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "20 Sep",
+        "Transaction Details": "Fps transfer",
+        "Deposit": "181.04",
+        "Withdrawal": "",
+        "Balance": "149,818.96",
+        "TO: Mannings": "TO: Mannings",
+        "P6319019QR": "P6319019QR",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "description": "Fps received from MPF",
+      "amount": 303.04,
+      "direction": "credit",
+      "balance": 150122.0,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "20 Sep",
+        "Transaction Details": "Fps received",
+        "Deposit": "303.04",
+        "Withdrawal": "",
+        "Balance": "150,122.00",
+        "TO: MPF": "TO: MPF",
+        "FPS PAYMENT 1748590": "FPS PAYMENT 1748590",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-21",
+      "description": "Fps payment to PARKnSHOP",
+      "amount": 11286.99,
+      "direction": "debit",
+      "balance": 138835.01,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "21 Sep",
+        "Transaction Details": "Fps payment",
+        "Deposit": "",
+        "Withdrawal": "11,286.99",
+        "Balance": "138,835.01",
+        "TO: PARKnSHOP": "TO: PARKnSHOP",
+        "FASTER PAYMENT 4056036": "FASTER PAYMENT 4056036",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "description": "Fps transfer to CLP Power",
+      "amount": 219.06,
+      "direction": "debit",
+      "balance": 138615.95,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "22 Sep",
+        "Transaction Details": "Fps",
+        "Deposit": "",
+        "Withdrawal": "219.06",
+        "Balance": "138,615.95",
+        "TO: CLP Power": "TO: CLP Power",
+        "P1063199QR": "P1063199QR",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "description": "Faster payment received from HKTVmall",
+      "amount": 34690.79,
+      "direction": "credit",
+      "balance": 173306.74,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "23 Sep",
+        "Transaction Details": "Faster payment received",
+        "Deposit": "34,690.79",
+        "Withdrawal": "",
+        "Balance": "173,306.74",
+        "TO: HKTVmall": "TO: HKTVmall",
+        "FPS 6678346": "FPS 6678346",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "description": "Fps received from Rating and Valuation",
+      "amount": 506.03,
+      "direction": "credit",
+      "balance": 173812.77,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "23 Sep",
+        "Transaction Details": "Fps received",
+        "Deposit": "506.03",
+        "Withdrawal": "",
+        "Balance": "173,812.77",
+        "TO: Rating and Valuation": "TO: Rating and Valuation",
+        "FPS PAYMENT 3097388": "FPS PAYMENT 3097388",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "description": "Faster payment to Netflix",
+      "amount": 3816.32,
+      "direction": "debit",
+      "balance": 169996.45,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "24 Sep",
+        "Transaction Details": "Faster payment",
+        "Deposit": "",
+        "Withdrawal": "3,816.32",
+        "Balance": "169,996.45",
+        "TO: Netflix": "TO: Netflix",
+        "FPS 4492099": "FPS 4492099",
+        "P4851231QR": "P4851231QR",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "description": "Fps to Wellcome",
+      "amount": 346.92,
+      "direction": "debit",
+      "balance": 169649.53,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "27 Sep",
+        "Transaction Details": "Fps",
+        "Deposit": "",
+        "Withdrawal": "346.92",
+        "Balance": "169,649.53",
+        "TO: Wellcome": "TO: Wellcome",
+        "FPS 9447144": "FPS 9447144",
+        "P9473185QR": "P9473185QR",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "description": "Fps credit to HKIRD",
+      "amount": 631.17,
+      "direction": "credit",
+      "balance": 170280.7,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "27 Sep",
+        "Transaction Details": "Fps credit",
+        "Deposit": "631.17",
+        "Withdrawal": "",
+        "Balance": "170,280.70",
+        "TO: HKIRD": "TO: HKIRD",
+        "FPS TRANSFER 6073478": "FPS TRANSFER 6073478",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "description": "Fps payment to Shell HK",
+      "amount": 129.85,
+      "direction": "debit",
+      "balance": 170150.85,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "Date": "30 Sep",
+        "Transaction Details": "Fps payment",
+        "Deposit": "",
+        "Withdrawal": "129.85",
+        "Balance": "170,150.85",
+        "TO: Shell HK": "TO: Shell HK",
+        "FASTER PAYMENT 8134726": "FASTER PAYMENT 8134726",
+        "OTHER": "OTHER"
+      }
+    },
+    {
+      "date": "2024-12-05",
+      "description": "Monthly service fee debited from USD Savings Account",
+      "amount": 200.0,
+      "direction": "debit",
+      "balance": 0,
+      "currency": "USD",
+      "accountId": "a2",
+      "originalData": {
+        "A monthly service fee has been charged based on your average Total RelatioAnship Balance of $11,559.24 from 1 Sep 2024 to 30 Nov 2024. A monthly service fee of $200.00 was debited from your USD Savings MAccount on 5 Dec 2024. For details of the monthly service fee, please refer to the Commercial Tariffs on our website.": "A monthly service fee has been charged based on your average Total RelatioAnship Balance of $11,559.24 from 1 Sep 2024 to 30 Nov 2024. A monthly service fee of $200.00 was debited from your USD Savings MAccount on 5 Dec 2024. For details of the monthly service fee, please refer to the Commercial Tariffs on our website."
+      }
+    }
+  ]
+}

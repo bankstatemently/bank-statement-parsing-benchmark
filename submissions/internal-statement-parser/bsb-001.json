@@ -1,0 +1,205 @@
+{
+  "contentHash": "d3d5071b90a33272f31bab5c5660d78b2ae29d2c6e1720477f5e8b167f73e843",
+  "accounts": [
+    {
+      "id": "a1",
+      "accountNumber": "2161-2777-1657",
+      "name": "SC Savings Account",
+      "currency": "SGD"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-01-01",
+      "description": "Paynow from PAYNOW TRANSFER 8373579 TO: Corp Holdings P4583998QR",
+      "amount": 1902.69,
+      "direction": "debit",
+      "balance": 17353.44,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "01/01/2025",
+        "Description": "Paynow from                            1,902.69    17,353.44",
+        "Withdrawal (-)": "",
+        "Deposit (+)": "1,902.69",
+        "Balance": "17,353.44"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "description": "Paynow PAYNOW TO 9547491 TO: Guardian Health & Beauty",
+      "amount": 70.64,
+      "direction": "debit",
+      "balance": 17282.8,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "01/01/2025",
+        "Description": "Paynow                       70.64        U        17,282.80",
+        "Withdrawal (-)": "70.64",
+        "Deposit (+)": "",
+        "Balance": "17,282.80"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "description": "Fast debit PAYNOW TRANSFER 7246426 TO: SP Group OTHER",
+      "amount": 14.47,
+      "direction": "debit",
+      "balance": 17268.33,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "01/01/2025",
+        "Description": "Fast debit                   14.47 D               17,268.33",
+        "Withdrawal (-)": "14.47",
+        "Deposit (+)": "",
+        "Balance": "17,268.33"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "description": "Paynow received PAYNOW TRANSFER 2141011 TO: Original Merchant",
+      "amount": 69.63,
+      "direction": "credit",
+      "balance": 17337.96,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "01/01/2025",
+        "Description": "Paynow received                         69.63      17,337.96",
+        "Withdrawal (-)": "",
+        "Deposit (+)": "69.63",
+        "Balance": "17,337.96"
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "description": "Fast received PAYNOW 5979135 TO: Employer Pte Ltd P1377026QR OTHER",
+      "amount": 29.83,
+      "direction": "credit",
+      "balance": 17367.79,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "12/01/2025",
+        "Description": "Fast received                           29.83      17,367.79",
+        "Withdrawal (-)": "",
+        "Deposit (+)": "29.83",
+        "Balance": "17,367.79"
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "description": "Paynow qr T I PAYNOW E9348807 TO: CHold Storage Singapore Pte Ltd P1185585QR",
+      "amount": 528.75,
+      "direction": "debit",
+      "balance": 16839.04,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "17/01/2025",
+        "Description": "Paynow qr T I               528.75                 16,839.04",
+        "Withdrawal (-)": "528.75",
+        "Deposit (+)": "",
+        "Balance": "16,839.04"
+      }
+    },
+    {
+      "date": "2025-01-26",
+      "description": "Paynow qr TO: Lazada Group YPAYNOW QR 9752510",
+      "amount": 218.18,
+      "direction": "debit",
+      "balance": 16620.86,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "26/01/2025",
+        "Description": "Paynow qr                   218.18                 16,620.86",
+        "Withdrawal (-)": "218.18",
+        "Deposit (+)": "",
+        "Balance": "16,620.86"
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "description": "Paynow TO: Grab Holdings P2765200QR PAYNOW QR 1564488",
+      "amount": 45.89,
+      "direction": "debit",
+      "balance": 16574.97,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "27/01/2025",
+        "Description": "Paynow                       45.89                 16,574.97",
+        "Withdrawal (-)": "45.89",
+        "Deposit (+)": "",
+        "Balance": "16,574.97"
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "description": "Paynow TO: Cold Storage Singapore Pte Ltd P4519868QR PAYNOW TO 1681972",
+      "amount": 15.18,
+      "direction": "debit",
+      "balance": 16559.79,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "28/01/2025",
+        "Description": "Paynow qr                    15.18                 16,559.79",
+        "Withdrawal (-)": "15.18",
+        "Deposit (+)": "",
+        "Balance": "16,559.79"
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "description": "Paynow to TO: H&M Hennes & Mauritz PAYNOW TO 5967276",
+      "amount": 36.29,
+      "direction": "debit",
+      "balance": 16523.5,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "28/01/2025",
+        "Description": "Paynow to                    36.29                 16,523.50",
+        "Withdrawal (-)": "36.29",
+        "Deposit (+)": "",
+        "Balance": "16,523.50"
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "description": "Fast debit PAYNOW TO 9521556 TO: Sheng Siong Group Ltd P4825006QR OTHER",
+      "amount": 1230.27,
+      "direction": "debit",
+      "balance": 15293.23,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "30/01/2025",
+        "Description": "Fast debit                 1,230.27                15,293.23",
+        "Withdrawal (-)": "1,230.27",
+        "Deposit (+)": "",
+        "Balance": "15,293.23"
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "description": "Fast PAYNOW TRANSFER 6622105 TO: McDonald's Restaurants Pte Ltd P9971842QR OTHER",
+      "amount": 22.0,
+      "direction": "debit",
+      "balance": 15271.23,
+      "currency": "SGD",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "31/01/2025",
+        "Description": "Fast                         22.00                 15,271.23",
+        "Withdrawal (-)": "22.00",
+        "Deposit (+)": "",
+        "Balance": "15,271.23"
+      }
+    }
+  ]
+}

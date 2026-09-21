@@ -1,0 +1,403 @@
+{
+  "contentHash": "a5cc2a7d210bc657c55b44ac159c5d10b2d71553f3646ce17a64051f918fd960",
+  "accounts": [
+    {
+      "id": "a1",
+      "accountNumber": "67324-673-9893968",
+      "name": "Harbour Bank",
+      "currency": "CAD"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-01-02",
+      "description": "SKIP PLATS",
+      "amount": 151.3,
+      "direction": "debit",
+      "balance": 10598.7,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "02 janv. 25 SKIP PLATS",
+        "Chèques et débits": "151,30 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "10 598,70 $"
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "description": "DEPOT DIRECT SALAIRE",
+      "amount": 10.33,
+      "direction": "credit",
+      "balance": 10609.03,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "02 janv. 25 DEPOT DIRECT SALAIRE",
+        "Chèques et débits": "",
+        "Dépôts et crédits ($)": "10,33 $",
+        "Solde ($)": "10 609,03 $"
+      }
+    },
+    {
+      "date": "2025-01-03",
+      "description": "AMAZON.CA",
+      "amount": 1200.45,
+      "direction": "debit",
+      "balance": 9408.58,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "03 janv. 25 AMAZON.CA",
+        "Chèques et débits": "1 200,45 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "9 408,58 $"
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "description": "DEPYOT PAIE",
+      "amount": 101.15,
+      "direction": "debit",
+      "balance": 9509.73,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "06 janv. 25 DEPYOT PAIE",
+        "Chèques et débits": "101,15 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "9 509,73 $"
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "description": "PETRO-CANADA",
+      "amount": 29.69,
+      "direction": "debit",
+      "balance": 9480.04,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "06 janv. 25 PETRO-CANADA",
+        "Chèques et débits": "29,69 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "9 480,04 $"
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "description": "SPOTIFY CA",
+      "amount": 541.27,
+      "direction": "debit",
+      "balance": 8938.77,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "06 janv. 25 SPOTIFY CA",
+        "Chèques et débits": "541,27 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "8 938,77 $"
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "description": "METRO EPICERIE",
+      "amount": 712.2,
+      "direction": "debit",
+      "balance": 8226.57,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "07 janv. 25 METRO EPICERIE",
+        "Chèques et débits": "712,20 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "8 226,57 $"
+      }
+    },
+    {
+      "date": "2025-01-09",
+      "description": "PHARMAPRIX",
+      "amount": 323.62,
+      "direction": "debit",
+      "balance": 7902.95,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "09 janv. 25 PHARMAPRIX",
+        "Chèques et débits": "323,62 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "7 902,95 $"
+      }
+    },
+    {
+      "date": "2025-01-09",
+      "description": "HYDRO-QUEBEC",
+      "amount": 588.27,
+      "direction": "debit",
+      "balance": 7314.68,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "09 janv. 25 HYDRO-QUEBEC",
+        "Chèques et débits": "588,27 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "7 314,68 $"
+      }
+    },
+    {
+      "date": "2025-01-11",
+      "description": "CANADIAN TIRE",
+      "amount": 18.7,
+      "direction": "debit",
+      "balance": 7295.98,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "11 janv. 25 CANADIAN TIRE",
+        "Chèques et débits": "18,70 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "7 295,98 $"
+      }
+    },
+    {
+      "date": "2025-01-12",
+      "description": "MAGASIN VÊTEMENTS",
+      "amount": 100.28,
+      "direction": "debit",
+      "balance": 7195.7,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "12 janv. 25 MAGASIN VÊTEMENTS",
+        "Chèques et débits": "100,28 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "7 195,70 $"
+      }
+    },
+    {
+      "date": "2025-01-12",
+      "description": "INTERETS GAGNES",
+      "amount": 31.46,
+      "direction": "credit",
+      "balance": 7227.16,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "12 janv. 25 INTERETS GAGNES",
+        "Chèques et débits": "",
+        "Dépôts et crédits ($)": "31,46 $",
+        "Solde ($)": "7 227,16 $"
+      }
+    },
+    {
+      "date": "2025-01-13",
+      "description": "DEPOT DIRECT SALAIRE",
+      "amount": 33.97,
+      "direction": "credit",
+      "balance": 7261.13,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "13 janv. 25 DEPOT DIRECT SALAIRE",
+        "Chèques et débits": "",
+        "Dépôts et crédits ($)": "33,97 $",
+        "Solde ($)": "7 261,13 $"
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "description": "STM MONTREAL",
+      "amount": 567.79,
+      "direction": "debit",
+      "balance": 6693.34,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "14 janv. 25 STM MONTREAL",
+        "Chèques et débits": "567,79 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "6 693,34 $"
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "description": "VIREMENT INTERAC RECU",
+      "amount": 66.64,
+      "direction": "credit",
+      "balance": 6759.98,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "14 janv. 25 VIREMENT INTERAC RECU",
+        "Chèques et débits": "",
+        "Dépôts et crédits ($)": "66,64 $",
+        "Solde ($)": "6 759,98 $"
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "description": "STARBUCKS CAFE",
+      "amount": 84.98,
+      "direction": "debit",
+      "balance": 6675.0,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "16 janv. 25 STARBUCKS CAFE",
+        "Chèques et débits": "84,98 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "6 675,00 $"
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "description": "VIREMENT ELECTRONIQUE RECU",
+      "amount": 125.28,
+      "direction": "credit",
+      "balance": 6800.28,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "16 janv. 25 VIREMENT ELECTRONIQUE RECU",
+        "Chèques et débits": "",
+        "Dépôts et crédits ($)": "125,28 $",
+        "Solde ($)": "6 800,28 $"
+      }
+    },
+    {
+      "date": "2025-01-19",
+      "description": "TIM HORTONS",
+      "amount": 72.92,
+      "direction": "debit",
+      "balance": 6727.36,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "19 janv. 25 TIM HORTONS",
+        "Chèques et débits": "72,92 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "6 727,36 $"
+      }
+    },
+    {
+      "date": "2025-01-20",
+      "description": "DEPOT PAIE",
+      "amount": 6900.98,
+      "direction": "credit",
+      "balance": 13628.34,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "20 janv. 25 DEPOT PAIE",
+        "Chèques et débits": "",
+        "Dépôts et crédits ($)": "6 900,98 $",
+        "Solde ($)": "13 628,34 $"
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "description": "UBER COURSE",
+      "amount": 1895.8,
+      "direction": "debit",
+      "balance": 11732.54,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "21 janv. 25 UBER COURSE",
+        "Chèques et débits": "1 895,80 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "11 732,54 $"
+      }
+    },
+    {
+      "date": "2025-01-23",
+      "description": "LA BAIE",
+      "amount": 88.96,
+      "direction": "debit",
+      "balance": 11643.58,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "23 janv. 25 LA BAIE",
+        "Chèques et débits": "88,96 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "11 643,58 $"
+      }
+    },
+    {
+      "date": "2025-01-24",
+      "description": "TIM HORTONS",
+      "amount": 53.5,
+      "direction": "debit",
+      "balance": 11590.08,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "24 janv. 25 TIM HORTONS",
+        "Chèques et débits": "53,50 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "11 590,08 $"
+      }
+    },
+    {
+      "date": "2025-01-25",
+      "description": "APPLE.COM/BILL",
+      "amount": 17.26,
+      "direction": "debit",
+      "balance": 11572.82,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "25 janv. 25 APPLE.COM/BILL",
+        "Chèques et débits": "17,26 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "11 572,82 $"
+      }
+    },
+    {
+      "date": "2025-01-26",
+      "description": "GAZ METRO",
+      "amount": 422.11,
+      "direction": "debit",
+      "balance": 11150.71,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "26 janv. 25 GAZ METRO",
+        "Chèques et débits": "422,11 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "11 150,71 $"
+      }
+    },
+    {
+      "date": "2025-01-26",
+      "description": "NETFLIX.COM",
+      "amount": 17.11,
+      "direction": "debit",
+      "balance": 11133.6,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "26 janv. 25 NETFLIX.COM",
+        "Chèques et débits": "17,11 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "11 133,60 $"
+      }
+    },
+    {
+      "date": "2025-01-26",
+      "description": "Frais sur compte",
+      "amount": 23.0,
+      "direction": "debit",
+      "balance": 11133.6,
+      "currency": "CAD",
+      "accountId": "a1",
+      "originalData": {
+        "Détails": "Frais sur compte: 23,00 $",
+        "Chèques et débits": "23,00 $",
+        "Dépôts et crédits ($)": "",
+        "Solde ($)": "11 133,60 $"
+      }
+    }
+  ]
+}

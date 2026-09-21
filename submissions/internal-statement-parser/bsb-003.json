@@ -1,0 +1,349 @@
+{
+  "contentHash": "4945bcda107e6d7845850e728b90c4dba1cb11de5a13356b0794df349e5527c2",
+  "accounts": [
+    {
+      "id": "a1",
+      "accountNumber": "NL78HGGU6821675020",
+      "name": "Personal account",
+      "currency": "EUR"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-05-01",
+      "description": "THOMAS DE GROOT BINNENKOMENDE OVERBOEKING",
+      "amount": 114.83,
+      "direction": "credit",
+      "balance": 15320.0,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "1 mei",
+        "Interest Date": "01.05",
+        "Counterparty": "THOMAS DE GROOT",
+        "Description": "BINNENKOMENDE OVERBOEKING",
+        "Amount": "114,83 €"
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "description": "PIETER BOS B SALARISBETALING",
+      "amount": 67.97,
+      "direction": "credit",
+      "balance": 15434.97,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "2 mei",
+        "Interest Date": "02.05",
+        "Counterparty": "PIETER BOS B",
+        "Description": "SALARISBETALING",
+        "Amount": "67,97 €"
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "description": "JuTmbo SEPA DEBIT",
+      "amount": 218.55,
+      "direction": "debit",
+      "balance": 14816.42,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "7 mei",
+        "Interest Date": "07.05",
+        "Counterparty": "JuTmbo",
+        "Description": "SEPA DEBIT",
+        "Amount": "-218,55 €"
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "description": "Zalando NL TIKKIE BETAALD",
+      "amount": 14.57,
+      "direction": "debit",
+      "balance": 14597.87,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "7 mei",
+        "Interest Date": "07.05T",
+        "Counterparty": "Zalando NL",
+        "Description": "TIKKIE BETAALD",
+        "Amount": "-14,57 €"
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "description": "Q8 ATM",
+      "amount": 337.56,
+      "direction": "debit",
+      "balance": 14260.31,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "8 meiS",
+        "Interest Date": "08.05",
+        "Counterparty": "Q8",
+        "Description": "ATM",
+        "Amount": "-337,56 €"
+      }
+    },
+    {
+      "date": "2025-05-09",
+      "description": "JAN JANSEN SALARISBETALING",
+      "amount": 5624.95,
+      "direction": "credit",
+      "balance": 19885.26,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "9 mei",
+        "Interest Date": "09.05",
+        "Counterparty": "JAN JANSEN",
+        "Description": "SALARISBETALING",
+        "Amount": "5.624,95 €"
+      }
+    },
+    {
+      "date": "2025-05-10",
+      "description": "VERZEKERING PREMIE SEPA INCASSO",
+      "amount": 858.91,
+      "direction": "debit",
+      "balance": 19026.35,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "10 mei",
+        "Interest Date": "10.05",
+        "Counterparty": "VERZEKERING",
+        "Description": "PREMIE SEPA INCASSO",
+        "Amount": "-858,91 €"
+      }
+    },
+    {
+      "date": "2025-05-11",
+      "description": "DAAN DE VRIES SALARISBETALING",
+      "amount": 138.59,
+      "direction": "credit",
+      "balance": 19164.94,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "11 mei",
+        "Interest Date": "11.05",
+        "Counterparty": "DAAN DE VRIES",
+        "Description": "SALARISBETALING",
+        "Amount": "138,59 €"
+      }
+    },
+    {
+      "date": "2025-05-12",
+      "description": "Etos SEPA INCASSO",
+      "amount": 6.9,
+      "direction": "debit",
+      "balance": 19026.04,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "12 mei",
+        "Interest Date": "12.05",
+        "Counterparty": "Etos",
+        "Description": "SEPA INCASSO",
+        "Amount": "-6,90 €"
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "description": "Bol.com TIKKIE BETAALD",
+      "amount": 1450.77,
+      "direction": "debit",
+      "balance": 17575.27,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "15 mei",
+        "Interest Date": "15.05",
+        "Counterparty": "Bol.com",
+        "Description": "TIKKIE BETAALD",
+        "Amount": "-1.450,77 €"
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "description": "Thuisbezorgd IDEAL BETALING",
+      "amount": 578.3,
+      "direction": "debit",
+      "balance": 16094.57,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "15 mei",
+        "Interest Date": "15.05",
+        "Counterparty": "Thuisbezorgd",
+        "Description": "IDEAL BETALING",
+        "Amount": "-578,30 €"
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "description": "McDonald's Nederland BETAALVERZOEK",
+      "amount": 392.08,
+      "direction": "debit",
+      "balance": 15516.49,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "15 mei",
+        "Interest Date": "15.05",
+        "Counterparty": "McDonald's Nederland",
+        "Description": "BETAALVERZOEK",
+        "Amount": "-392,08 €"
+      }
+    },
+    {
+      "date": "2025-05-21",
+      "description": "Jumbo TIKKIE BETAALD",
+      "amount": 482.22,
+      "direction": "debit",
+      "balance": 15034.27,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "21 mei",
+        "Interest Date": "21.05",
+        "Counterparty": "Jumbo",
+        "Description": "TIKKIE BETAALD",
+        "Amount": "-482,22 €"
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "description": "SANNE BOS BIJSCHRIJVING",
+      "amount": 37.04,
+      "direction": "credit",
+      "balance": 15071.31,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "22 mei",
+        "Interest Date": "22.05",
+        "Counterparty": "SANNE BOS",
+        "Description": "BIJSCHRIJVING",
+        "Amount": "37,04 €"
+      }
+    },
+    {
+      "date": "2025-05-24",
+      "description": "Eneco DOORLOPENDE MACHTIGING",
+      "amount": 890.43,
+      "direction": "debit",
+      "balance": 14180.88,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "24 mei",
+        "Interest Date": "24.05",
+        "Counterparty": "Eneco",
+        "Description": "DOORLOPENDE MACHTIGING",
+        "Amount": "-890,43 €"
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "description": "Jumbo ATM",
+      "amount": 338.26,
+      "direction": "debit",
+      "balance": 13842.62,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "27 mei",
+        "Interest Date": "27.05",
+        "Counterparty": "Jumbo",
+        "Description": "ATM",
+        "Amount": "-338,26 €"
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "description": "McDonald's Nederland ACCEPTGIRO",
+      "amount": 183.45,
+      "direction": "debit",
+      "balance": 13509.36,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "27 mei",
+        "Interest Date": "27.05",
+        "Counterparty": "McDonald's Nederland",
+        "Description": "ACCEPTGIRO",
+        "Amount": "-183,45 €"
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "description": "Albert Heijn PERIODIEKE OVERBOEKING",
+      "amount": 156.96,
+      "direction": "debit",
+      "balance": 13352.4,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "28 mei",
+        "Interest Date": "28.05",
+        "Counterparty": "Albert Heijn",
+        "Description": "PERIODIEKE OVERBOEKING",
+        "Amount": "-156,96 €"
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "description": "Albert Heijn GELDAUTOMAAT",
+      "amount": 592.96,
+      "direction": "debit",
+      "balance": 12759.44,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "28 mei",
+        "Interest Date": "28.05",
+        "Counterparty": "Albert Heijn",
+        "Description": "GELDAUTOMAAT",
+        "Amount": "-592,96 €"
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "description": "Zalando NL IDEAL",
+      "amount": 15.29,
+      "direction": "debit",
+      "balance": 12166.48,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "29 mei",
+        "Interest Date": "29.05",
+        "Counterparty": "Zalando NL",
+        "Description": "IDEAL",
+        "Amount": "-15,29 €"
+      }
+    },
+    {
+      "date": "2025-05-31",
+      "description": "Ziggo OVERSCHRIJVING",
+      "amount": 91.81,
+      "direction": "debit",
+      "balance": 12074.67,
+      "currency": "EUR",
+      "accountId": "a1",
+      "originalData": {
+        "Date": "31 mei",
+        "Interest Date": "31.05",
+        "Counterparty": "Ziggo",
+        "Description": "OVERSCHRIJVING",
+        "Amount": "-91,81 €"
+      }
+    }
+  ]
+}
