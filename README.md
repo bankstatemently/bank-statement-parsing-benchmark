@@ -384,8 +384,9 @@ Reissued to fix the account number: Canada has no IBAN, but the old template pri
 3. **Prove you represent the tool**, either way works:
    - the PR author is a public member of the tool's GitHub organization, or
    - a maintainer signs up at [bankstatemently.com](https://bankstatemently.com) using an email address on the tool's own domain (signup verifies the email) and names that account email in the PR.
+   - a personal or in-house parser that is not available to other people needs neither — the PR from its maintainer's own account is the record, and the row lands in the Community submissions table rather than the leaderboard.
 4. **We re-score your files server-side** through the same scoring engine that powers `evaluate_benchmark`. Ground truth is held server-side, so self-reported numbers are never trusted and scores cannot be tampered with. We run `benchmark:submit` on your submission file, the same path our own rows take.
-5. **Your row appears** on the [leaderboard](https://bankstatemently.com/benchmark/results) and in [RESULTS.md](RESULTS.md) at the next publish. Submission PRs are not merged: this repository is generated from our monorepo, so your PR stays open as the public submission record until we ingest it, then gets closed with a link to your row.
+5. **Your row appears** on the [leaderboard](https://bankstatemently.com/benchmark/results) (or its Community submissions table) and in [RESULTS.md](RESULTS.md) at the next publish. Submission PRs are not merged: this repository is generated from our monorepo, so your PR stays open as the public submission record until we ingest it, then gets closed with a link to your row.
 
 Nothing appears on the leaderboard without review and server-side re-scoring.
 

@@ -18,6 +18,14 @@ One row per tool, two columns: a Real Statement (2025) run against one real DBS 
 | [Statemently.ai](https://bankstatemently.com/benchmark/results/statemently) | 17.0% | Not yet run | 0/5 |
 | [StatementConvert.com](https://bankstatemently.com/benchmark/results/statementconvert) | 7.9% | Not yet run | 0/5 |
 
+## Community submissions
+
+Parsers submitted by their authors that aren't available as a product or service. Scored through the same engine as the leaderboard, listed separately because you can't go and use them.
+
+| Tool | Real Statement (2025) | Open Benchmark (2026) | Statements Scored |
+|---|--:|--:|--:|
+| [Internal Statement Parser](https://bankstatemently.com/benchmark/results/internal-statement-parser) | Not yet run | 45.3% | 5/5 |
+
 ## Submissions
 
 Score your own tool by running `evaluate_benchmark` against the released statements (bsb-001..bsb-005), then follow the "Submit to the leaderboard" instructions in this repository's README.
