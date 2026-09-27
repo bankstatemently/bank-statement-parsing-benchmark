@@ -1,0 +1,419 @@
+{
+  "contentHash": "67a5b862696fc06e675db53867be6fcc71a4ecc13998193e8b45e2cd63371051",
+  "accounts": [
+    {
+      "id": "a1",
+      "name": "HKD Current Account",
+      "accountNumber": "817-890692-838",
+      "currency": "HKD"
+    },
+    {
+      "id": "a2",
+      "name": "USD Savings Account",
+      "accountNumber": "817-890692-002",
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-09-01",
+      "description": "Faster payment FASTER PAYMENT 8742522 TO: Deliveroo P3704085QR OTHER",
+      "amount": 153.01,
+      "direction": "debit",
+      "balance": 42426.99,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "1 Sep",
+        "Transaction Details\n進支詳情": "Faster payment\nFASTER PAYMENT 8742522\nTO: Deliveroo\nP3704085QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "153.01",
+        "Balance\n結餘": "42,426.99"
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "description": "Fps payment FPS TRANSFER 4317616 TO: Watsons HK OTHER",
+      "amount": 1932.0,
+      "direction": "debit",
+      "balance": 40494.99,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "2 Sep",
+        "Transaction Details\n進支詳情": "Fps payment\nFPS TRANSFER 4317616\nTO: Watsons HK\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "1,932.00",
+        "Balance\n結餘": "40,494.99"
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "description": "Fps transfer FASTER PAYMENT 1105321 TO: Deliveroo P4161927QR OTHER",
+      "amount": 292.69,
+      "direction": "debit",
+      "balance": 40202.3,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "3 Sep",
+        "Transaction Details\n進支詳情": "Fps transfer\nFASTER PAYMENT 1105321\nTO: Deliveroo\nP4161927QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "292.69",
+        "Balance\n結餘": "40,202.30"
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "description": "Fps received FPS TRANSFER 4035786 TO: MPF OTHER",
+      "amount": 298.25,
+      "direction": "credit",
+      "balance": 40500.55,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "5 Sep",
+        "Transaction Details\n進支詳情": "Fps received\nFPS TRANSFER 4035786\nTO: MPF\nOTHER",
+        "Deposit\n存入": "298.25",
+        "Withdrawal\n提取": "",
+        "Balance\n結餘": "40,500.55"
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "description": "Chats payment FPS PAYMENT 4665823 TO: MTR P4727275QR OTHER",
+      "amount": 1364.41,
+      "direction": "debit",
+      "balance": 39136.14,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "6 Sep",
+        "Transaction Details\n進支詳情": "Chats payment\nFPS PAYMENT 4665823\nTO: MTR\nP4727275QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "1,364.41",
+        "Balance\n結餘": "39,136.14"
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "description": "Chats payment FPS PAYMENT 4342274 TO: Fortress OTHER",
+      "amount": 392.44,
+      "direction": "debit",
+      "balance": 38743.7,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "7 Sep",
+        "Transaction Details\n進支詳情": "Chats payment\nFPS PAYMENT 4342274\nTO: Fortress\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "392.44",
+        "Balance\n結餘": "38,743.70"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "description": "Fps FASTER PAYMENT 5098032 TO: Deliveroo OTHER",
+      "amount": 6510.43,
+      "direction": "debit",
+      "balance": 32233.27,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "12 Sep",
+        "Transaction Details\n進支詳情": "Fps\nFASTER PAYMENT 5098032\nTO: Deliveroo\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "6,510.43",
+        "Balance\n結餘": "32,233.27"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "description": "Fps payment FASTER PAYMENT 4534921 TO: MTR OTHER",
+      "amount": 4771.08,
+      "direction": "debit",
+      "balance": 27462.19,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "13 Sep",
+        "Transaction Details\n進支詳情": "Fps payment\nFASTER PAYMENT 4534921\nTO: MTR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "4,771.08",
+        "Balance\n結餘": "27,462.19"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "description": "Chats payment FPS TRANSFER 7940237 TO: H&M HK OTHER",
+      "amount": 232.85,
+      "direction": "debit",
+      "balance": 27229.34,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "13 Sep",
+        "Transaction Details\n進支詳情": "Chats payment\nFPS TRANSFER 7940237\nTO: H&M HK\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "232.85",
+        "Balance\n結餘": "27,229.34"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "description": "Fps transfer FASTER PAYMENT 6757548 TO: McDonald's HK OTHER",
+      "amount": 181.62,
+      "direction": "debit",
+      "balance": 27047.72,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "14 Sep",
+        "Transaction Details\n進支詳情": "Fps transfer\nFASTER PAYMENT 6757548\nTO: McDonald's HK\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "181.62",
+        "Balance\n結餘": "27,047.72"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "description": "Chats FASTER PAYMENT 9982744 TO: Zara HK P7818547QR OTHER",
+      "amount": 3554.02,
+      "direction": "debit",
+      "balance": 23493.7,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "14 Sep",
+        "Transaction Details\n進支詳情": "Chats\nFASTER PAYMENT 9982744\nTO: Zara HK\nP7818547QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "3,554.02",
+        "Balance\n結餘": "23,493.70"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "description": "Fps payment FASTER PAYMENT 7869997 TO: Deliveroo OTHER",
+      "amount": 4728.04,
+      "direction": "debit",
+      "balance": 18765.66,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "17 Sep",
+        "Transaction Details\n進支詳情": "Fps payment\nFASTER PAYMENT 7869997\nTO: Deliveroo\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "4,728.04",
+        "Balance\n結餘": "18,765.66"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "description": "Fps received FPS PAYMENT 9214246 TO: Rating and Valuation OTHER",
+      "amount": 235.54,
+      "direction": "credit",
+      "balance": 19001.2,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "19 Sep",
+        "Transaction Details\n進支詳情": "Fps received\nFPS PAYMENT 9214246\nTO: Rating and Valuation\nOTHER",
+        "Deposit\n存入": "235.54",
+        "Withdrawal\n提取": "",
+        "Balance\n結餘": "19,001.20"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "description": "Fps FPS PAYMENT 9247994 TO: Amazon OTHER",
+      "amount": 263.97,
+      "direction": "debit",
+      "balance": 18737.23,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "19 Sep",
+        "Transaction Details\n進支詳情": "Fps\nFPS PAYMENT 9247994\nTO: Amazon\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "263.97",
+        "Balance\n結餘": "18,737.23"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "description": "Chats FASTER PAYMENT 3559781 TO: H&M HK P8416130QR OTHER",
+      "amount": 373.11,
+      "direction": "debit",
+      "balance": 18364.12,
+      "accountId": "a1",
+      "currency": "HKD",
+      "originalData": {
+        "Date\n日期": "20 Sep",
+        "Transaction Details\n進支詳情": "Chats\nFASTER PAYMENT 3559781\nTO: H&M HK\nP8416130QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "373.11",
+        "Balance\n結餘": "18,364.12"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "description": "Fps transfer FASTER PAYMENT 6611800 TO: Mannings P6319019QR OTHER",
+      "amount": 181.04,
+      "direction": "debit",
+      "balance": 149818.96,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "20 Sep",
+        "Transaction Details\n進支詳情": "Fps transfer\nFASTER PAYMENT 6611800\nTO: Mannings\nP6319019QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "181.04",
+        "Balance\n結餘": "149,818.96"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "description": "Chats received FPS PAYMENT 1748590 TO: MPF OTHER",
+      "amount": 303.04,
+      "direction": "credit",
+      "balance": 150122.0,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "20 Sep",
+        "Transaction Details\n進支詳情": "Chats received\nFPS PAYMENT 1748590\nTO: MPF\nOTHER",
+        "Deposit\n存入": "303.04",
+        "Withdrawal\n提取": "",
+        "Balance\n結餘": "150,122.00"
+      }
+    },
+    {
+      "date": "2025-09-21",
+      "description": "Fps payment FASTER PAYMENT 4056036 TO: PARKnSHOP OTHER",
+      "amount": 11286.99,
+      "direction": "debit",
+      "balance": 138835.01,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "21 Sep",
+        "Transaction Details\n進支詳情": "Fps payment\nFASTER PAYMENT 4056036\nTO: PARKnSHOP\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "11,286.99",
+        "Balance\n結餘": "138,835.01"
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "description": "Fps FPS TRANSFER 5047871 TO: CLP Power P1063199QR OTHER",
+      "amount": 219.06,
+      "direction": "debit",
+      "balance": 138615.95,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "22 Sep",
+        "Transaction Details\n進支詳情": "Fps\nFPS TRANSFER 5047871\nTO: CLP Power\nP1063199QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "219.06",
+        "Balance\n結餘": "138,615.95"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "description": "Faster payment received FPS 6678346 TO: HKTVmall OTHER",
+      "amount": 34690.79,
+      "direction": "credit",
+      "balance": 173306.74,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "23 Sep",
+        "Transaction Details\n進支詳情": "Faster payment received\nFPS 6678346\nTO: HKTVmall\nOTHER",
+        "Deposit\n存入": "34,690.79",
+        "Withdrawal\n提取": "",
+        "Balance\n結餘": "173,306.74"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "description": "Fps received FPS PAYMENT 3097388 TO: Rating and Valuation OTHER",
+      "amount": 506.03,
+      "direction": "credit",
+      "balance": 173812.77,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "23 Sep",
+        "Transaction Details\n進支詳情": "Fps received\nFPS PAYMENT 3097388\nTO: Rating and Valuation\nOTHER",
+        "Deposit\n存入": "506.03",
+        "Withdrawal\n提取": "",
+        "Balance\n結餘": "173,812.77"
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "description": "Faster payment FPS 4492099 TO: Netflix P4851231QR OTHER",
+      "amount": 3816.32,
+      "direction": "debit",
+      "balance": 169996.45,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "24 Sep",
+        "Transaction Details\n進支詳情": "Faster payment\nFPS 4492099\nTO: Netflix\nP4851231QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "3,816.32",
+        "Balance\n結餘": "169,996.45"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "description": "Fps FPS 9447144 TO: Wellcome P9473185QR OTHER",
+      "amount": 346.92,
+      "direction": "debit",
+      "balance": 169649.53,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "27 Sep",
+        "Transaction Details\n進支詳情": "Fps\nFPS 9447144\nTO: Wellcome\nP9473185QR\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "346.92",
+        "Balance\n結餘": "169,649.53"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "description": "Fps credit FPS TRANSFER 6073478 TO: HKIRD OTHER",
+      "amount": 631.17,
+      "direction": "credit",
+      "balance": 170280.7,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "27 Sep",
+        "Transaction Details\n進支詳情": "Fps credit\nFPS TRANSFER 6073478\nTO: HKIRD\nOTHER",
+        "Deposit\n存入": "631.17",
+        "Withdrawal\n提取": "",
+        "Balance\n結餘": "170,280.70"
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "description": "Fps payment FASTER PAYMENT 8134726 TO: Shell HK OTHER",
+      "amount": 129.85,
+      "direction": "debit",
+      "balance": 170150.85,
+      "accountId": "a2",
+      "currency": "USD",
+      "originalData": {
+        "Date\n日期": "30 Sep",
+        "Transaction Details\n進支詳情": "Fps payment\nFASTER PAYMENT 8134726\nTO: Shell HK\nOTHER",
+        "Deposit\n存入": "",
+        "Withdrawal\n提取": "129.85",
+        "Balance\n結餘": "170,150.85"
+      }
+    }
+  ]
+}

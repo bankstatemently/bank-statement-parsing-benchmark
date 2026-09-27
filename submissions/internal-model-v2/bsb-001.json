@@ -1,0 +1,173 @@
+{
+  "contentHash": "d3d5071b90a33272f31bab5c5660d78b2ae29d2c6e1720477f5e8b167f73e843",
+  "transactions": [
+    {
+      "date": "2025-01-01",
+      "description": "Paynow from PAYNOW TRANSFER 8373579 TO: Corp Holdings P4583998QR",
+      "amount": 1902.69,
+      "direction": "credit",
+      "balance": 17353.44,
+      "originalData": {
+        "Date": "01/01/2025",
+        "Description": "Paynow from\nPAYNOW TRANSFER 8373579\nTO: Corp Holdings\nP4583998QR",
+        "Withdrawal (-)": "",
+        "Deposit (+)": "1,902.69",
+        "Balance": "17,353.44"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "description": "Paynow PAYNOW TO 9547491 TO: Guardian Health & Beauty",
+      "amount": 70.64,
+      "direction": "debit",
+      "balance": 17282.8,
+      "originalData": {
+        "Date": "01/01/2025",
+        "Description": "Paynow\nPAYNOW TO 9547491\nTO: Guardian Health & Beauty",
+        "Withdrawal (-)": "70.64",
+        "Deposit (+)": "",
+        "Balance": "17,282.80"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "description": "Fast debit PAYNOW TRANSFER 7246426 TO: SP Group OTHER",
+      "amount": 14.47,
+      "direction": "debit",
+      "balance": 17268.33,
+      "originalData": {
+        "Date": "01/01/2025",
+        "Description": "Fast debit\nPAYNOW TRANSFER 7246426\nTO: SP Group\nOTHER",
+        "Withdrawal (-)": "14.47",
+        "Deposit (+)": "",
+        "Balance": "17,268.33"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "description": "Paynow received PAYNOW TRANSFER 2141011 TO: Original Merchant",
+      "amount": 69.63,
+      "direction": "credit",
+      "balance": 17337.96,
+      "originalData": {
+        "Date": "01/01/2025",
+        "Description": "Paynow received\nPAYNOW TRANSFER 2141011\nTO: Original Merchant",
+        "Withdrawal (-)": "",
+        "Deposit (+)": "69.63",
+        "Balance": "17,337.96"
+      }
+    },
+    {
+      "date": "2025-01-12",
+      "description": "Fast received PAYNOW 5979135 TO: Employer Pte Ltd P1377026QR OTHER",
+      "amount": 29.83,
+      "direction": "credit",
+      "balance": 17367.79,
+      "originalData": {
+        "Date": "12/01/2025",
+        "Description": "Fast received\nPAYNOW 5979135\nTO: Employer Pte Ltd\nP1377026QR\nOTHER",
+        "Withdrawal (-)": "",
+        "Deposit (+)": "29.83",
+        "Balance": "17,367.79"
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "description": "Paynow qr PAYNOW 9348807 TO: Cold Storage Singapore Pte Ltd P1185585QR",
+      "amount": 528.75,
+      "direction": "debit",
+      "balance": 16839.04,
+      "originalData": {
+        "Date": "17/01/2025",
+        "Description": "Paynow qr\nPAYNOW 9348807\nTO: Cold Storage Singapore Pte Ltd\nP1185585QR",
+        "Withdrawal (-)": "528.75",
+        "Deposit (+)": "",
+        "Balance": "16,839.04"
+      }
+    },
+    {
+      "date": "2025-01-26",
+      "description": "Paynow qr PAYNOW QR 9752510 TO: Lazada Group",
+      "amount": 218.18,
+      "direction": "debit",
+      "balance": 16620.86,
+      "originalData": {
+        "Date": "26/01/2025",
+        "Description": "Paynow qr\nPAYNOW QR 9752510\nTO: Lazada Group",
+        "Withdrawal (-)": "218.18",
+        "Deposit (+)": "",
+        "Balance": "16,620.86"
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "description": "Paynow PAYNOW QR 1564488 TO: Grab Holdings P2765200QR",
+      "amount": 45.89,
+      "direction": "debit",
+      "balance": 16574.97,
+      "originalData": {
+        "Date": "27/01/2025",
+        "Description": "Paynow\nPAYNOW QR 1564488\nTO: Grab Holdings\nP2765200QR",
+        "Withdrawal (-)": "45.89",
+        "Deposit (+)": "",
+        "Balance": "16,574.97"
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "description": "Paynow qr PAYNOW TO 1681972 TO: Cold Storage Singapore Pte Ltd P4519868QR",
+      "amount": 15.18,
+      "direction": "debit",
+      "balance": 16559.79,
+      "originalData": {
+        "Date": "28/01/2025",
+        "Description": "Paynow qr\nPAYNOW TO 1681972\nTO: Cold Storage Singapore Pte Ltd\nP4519868QR",
+        "Withdrawal (-)": "15.18",
+        "Deposit (+)": "",
+        "Balance": "16,559.79"
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "description": "Paynow to PAYNOW TO 5967276 TO: H&M Hennes & Mauritz",
+      "amount": 36.29,
+      "direction": "debit",
+      "balance": 16523.5,
+      "originalData": {
+        "Date": "28/01/2025",
+        "Description": "Paynow to\nPAYNOW TO 5967276\nTO: H&M Hennes & Mauritz",
+        "Withdrawal (-)": "36.29",
+        "Deposit (+)": "",
+        "Balance": "16,523.50"
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "description": "Fast debit PAYNOW TO 9521556 TO: Sheng Siong Group Ltd P4825006QR OTHER",
+      "amount": 1230.27,
+      "direction": "debit",
+      "balance": 15293.23,
+      "originalData": {
+        "Date": "30/01/2025",
+        "Description": "Fast debit\nPAYNOW TO 9521556\nTO: Sheng Siong Group Ltd\nP4825006QR\nOTHER",
+        "Withdrawal (-)": "1,230.27",
+        "Deposit (+)": "",
+        "Balance": "15,293.23"
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "description": "Fast PAYNOW TRANSFER 6622105 TO: McDonald's Restaurants Pte Ltd P9971842QR OTHER",
+      "amount": 22.0,
+      "direction": "debit",
+      "balance": 15271.23,
+      "originalData": {
+        "Date": "31/01/2025",
+        "Description": "Fast\nPAYNOW TRANSFER 6622105\nTO: McDonald's Restaurants Pte Ltd\nP9971842QR\nOTHER",
+        "Withdrawal (-)": "22.00",
+        "Deposit (+)": "",
+        "Balance": "15,271.23"
+      }
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "contentHash": "4945bcda107e6d7845850e728b90c4dba1cb11de5a13356b0794df349e5527c2",
+  "transactions": [
+    {
+      "date": "2025-05-01",
+      "description": "BINNENKOMENDE OVERBOEKING",
+      "amount": 114.83,
+      "direction": "credit",
+      "originalData": {
+        "Date": "1 mei",
+        "Interest Date": "01.05",
+        "Counterparty": "THOMAS DE GROOT\nNL17THOM6025479805",
+        "Description": "BINNENKOMENDE OVERBOEKING",
+        "Amount": "114,83 €"
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "description": "SALARISBETALING",
+      "amount": 67.97,
+      "direction": "credit",
+      "originalData": {
+        "Date": "2 mei",
+        "Interest Date": "02.05",
+        "Counterparty": "PIETER BOS\nNL55PIET1083224727",
+        "Description": "SALARISBETALING",
+        "Amount": "67,97 €"
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "description": "SEPA DEBIT",
+      "amount": 218.55,
+      "direction": "debit",
+      "originalData": {
+        "Date": "7 mei",
+        "Interest Date": "07.05",
+        "Counterparty": "Jumbo\nNL73JXXX3432486615",
+        "Description": "SEPA DEBIT",
+        "Amount": "-218,55 €"
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "description": "TIKKIE BETAALD",
+      "amount": 14.57,
+      "direction": "debit",
+      "originalData": {
+        "Date": "7 mei",
+        "Interest Date": "07.05",
+        "Counterparty": "Zalando NL\nNL99ZNLX1792129364",
+        "Description": "TIKKIE BETAALD",
+        "Amount": "-14,57 €"
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "description": "ATM",
+      "amount": 337.56,
+      "direction": "debit",
+      "originalData": {
+        "Date": "8 mei",
+        "Interest Date": "08.05",
+        "Counterparty": "Q8\nNL97QXXX5764147254",
+        "Description": "ATM",
+        "Amount": "-337,56 €"
+      }
+    },
+    {
+      "date": "2025-05-09",
+      "description": "SALARISBETALING",
+      "amount": 5624.95,
+      "direction": "credit",
+      "originalData": {
+        "Date": "9 mei",
+        "Interest Date": "09.05",
+        "Counterparty": "JAN JANSEN\nNL92JANJ6922520543",
+        "Description": "SALARISBETALING",
+        "Amount": "5.624,95 €"
+      }
+    },
+    {
+      "date": "2025-05-10",
+      "description": "SEPA INCASSO",
+      "amount": 858.91,
+      "direction": "debit",
+      "originalData": {
+        "Date": "10 mei",
+        "Interest Date": "10.05",
+        "Counterparty": "VERZEKERING PREMIE\nNL62VERZ3742218950",
+        "Description": "SEPA INCASSO",
+        "Amount": "-858,91 €"
+      }
+    },
+    {
+      "date": "2025-05-11",
+      "description": "SALARISBETALING",
+      "amount": 138.59,
+      "direction": "credit",
+      "originalData": {
+        "Date": "11 mei",
+        "Interest Date": "11.05",
+        "Counterparty": "DAAN DE VRIES\nNL14DAAN2128810541",
+        "Description": "SALARISBETALING",
+        "Amount": "138,59 €"
+      }
+    },
+    {
+      "date": "2025-05-12",
+      "description": "SEPA INCASSO",
+      "amount": 6.9,
+      "direction": "debit",
+      "originalData": {
+        "Date": "12 mei",
+        "Interest Date": "12.05",
+        "Counterparty": "Etos\nNL77EXXX8256872349",
+        "Description": "SEPA INCASSO",
+        "Amount": "-6,90 €"
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "description": "TIKKIE BETAALD",
+      "amount": 1450.77,
+      "direction": "debit",
+      "originalData": {
+        "Date": "15 mei",
+        "Interest Date": "15.05",
+        "Counterparty": "Bol.com\nNL79BXXX7077561172",
+        "Description": "TIKKIE BETAALD",
+        "Amount": "-1.450,77 €"
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "description": "IDEAL BETALING",
+      "amount": 578.3,
+      "direction": "debit",
+      "originalData": {
+        "Date": "15 mei",
+        "Interest Date": "15.05",
+        "Counterparty": "Thuisbezorgd\nNL75TXXX9795078158",
+        "Description": "IDEAL BETALING",
+        "Amount": "-578,30 €"
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "description": "BETAALVERZOEK",
+      "amount": 392.08,
+      "direction": "debit",
+      "originalData": {
+        "Date": "15 mei",
+        "Interest Date": "15.05",
+        "Counterparty": "McDonald's Nederland\nNL84MDNX6839533434",
+        "Description": "BETAALVERZOEK",
+        "Amount": "-392,08 €"
+      }
+    },
+    {
+      "date": "2025-05-21",
+      "description": "TIKKIE BETAALD",
+      "amount": 482.22,
+      "direction": "debit",
+      "originalData": {
+        "Date": "21 mei",
+        "Interest Date": "21.05",
+        "Counterparty": "Jumbo\nNL87JXXX7965341615",
+        "Description": "TIKKIE BETAALD",
+        "Amount": "-482,22 €"
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "description": "SEPA DEBIT",
+      "amount": 19.4,
+      "direction": "debit",
+      "originalData": {
+        "Date": "22 mei",
+        "Interest Date": "22.05",
+        "Counterparty": "Vattenfall Nederland\nNL54VNXX1840427254",
+        "Description": "SEPA DEBIT",
+        "Amount": "-19,40 €"
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "description": "BIJSCHRIJVING",
+      "amount": 37.04,
+      "direction": "credit",
+      "originalData": {
+        "Date": "22 mei",
+        "Interest Date": "22.05",
+        "Counterparty": "SANNE BOS\nNL46SANN9170154372",
+        "Description": "BIJSCHRIJVING",
+        "Amount": "37,04 €"
+      }
+    },
+    {
+      "date": "2025-05-24",
+      "description": "DOORLOPENDE MACHTIGING",
+      "amount": 890.43,
+      "direction": "debit",
+      "originalData": {
+        "Date": "24 mei",
+        "Interest Date": "24.05",
+        "Counterparty": "Eneco\nNL21EXXX7342322726",
+        "Description": "DOORLOPENDE MACHTIGING",
+        "Amount": "-890,43 €"
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "description": "ATM",
+      "amount": 338.26,
+      "direction": "debit",
+      "originalData": {
+        "Date": "27 mei",
+        "Interest Date": "27.05",
+        "Counterparty": "Jumbo\nNL39JXXX5818282551",
+        "Description": "ATM",
+        "Amount": "-338,26 €"
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "description": "ACCEPTGIRO",
+      "amount": 183.45,
+      "direction": "debit",
+      "originalData": {
+        "Date": "27 mei",
+        "Interest Date": "27.05",
+        "Counterparty": "McDonald's Nederland\nNL44MDNX4935101248",
+        "Description": "ACCEPTGIRO",
+        "Amount": "-183,45 €"
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "description": "PERIODIEKE OVERBOEKING",
+      "amount": 156.96,
+      "direction": "debit",
+      "originalData": {
+        "Date": "28 mei",
+        "Interest Date": "28.05",
+        "Counterparty": "Albert Heijn\nNL28AHXX1239698894",
+        "Description": "PERIODIEKE OVERBOEKING",
+        "Amount": "-156,96 €"
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "description": "GELDAUTOMAAT",
+      "amount": 592.96,
+      "direction": "debit",
+      "originalData": {
+        "Date": "28 mei",
+        "Interest Date": "28.05",
+        "Counterparty": "Albert Heijn\nNL68AHXX7186082419",
+        "Description": "GELDAUTOMAAT",
+        "Amount": "-592,96 €"
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "description": "IDEAL",
+      "amount": 15.29,
+      "direction": "debit",
+      "originalData": {
+        "Date": "29 mei",
+        "Interest Date": "29.05",
+        "Counterparty": "Zalando NL\nNL98ZNLX6064401271",
+        "Description": "IDEAL",
+        "Amount": "-15,29 €"
+      }
+    },
+    {
+      "date": "2025-05-31",
+      "description": "OVERSCHRIJVING",
+      "amount": 91.81,
+      "direction": "debit",
+      "originalData": {
+        "Date": "31 mei",
+        "Interest Date": "31.05",
+        "Counterparty": "Ziggo\nNL94ZXXX4358057468",
+        "Description": "OVERSCHRIJVING",
+        "Amount": "-91,81 €"
+      }
+    }
+  ]
+}
