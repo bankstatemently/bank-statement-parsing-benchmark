@@ -24,7 +24,7 @@ Parsers submitted by their authors that aren't available as a product or service
 
 | Tool | Real Statement (2025) | Open Benchmark (2026) | Statements Scored |
 |---|--:|--:|--:|
-| [Internal Statement Parser](https://bankstatemently.com/benchmark/results/internal-statement-parser) | Not yet run | 45.3% | 5/5 |
+| [Internal Model v2](https://bankstatemently.com/benchmark/results/internal-statement-parser) | Not yet run | 100.0% | 5/5 |
 
 ## Submissions
 
