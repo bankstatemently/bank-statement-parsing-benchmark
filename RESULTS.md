@@ -17,6 +17,7 @@ One row per tool, two columns: a Real Statement (2025) run against one real DBS 
 | [ChatGPT - GPT-5](https://bankstatemently.com/benchmark/results/chatgpt5) | 30.1% | Not yet run | 0/5 |
 | [Statemently.ai](https://bankstatemently.com/benchmark/results/statemently) | 17.0% | Not yet run | 0/5 |
 | [StatementConvert.com](https://bankstatemently.com/benchmark/results/statementconvert) | 7.9% | Not yet run | 0/5 |
+| [DocuClipper](https://bankstatemently.com/benchmark/results/docuclipper) | Not yet run | 44.5% | 3/5 (partial) |
 
 ## Community submissions
 
